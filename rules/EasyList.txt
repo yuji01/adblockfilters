@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LHDenAC1Wa2ZHqZnN9PYQQ
-! Version: 202310210020
+! Checksum: pM4eBdfHBLn3nuIzDn8hjg
+! Version: 202310210740
 ! Title: EasyList
-! Last modified: 21 Oct 2023 00:20 UTC
+! Last modified: 21 Oct 2023 07:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -59090,6 +59090,8 @@ talkingpointsmemo.com##.--span\:12.AdSlot
 bigissue.com##.-ad
 gamejolt.com##.-ad-widget
 porndoe.com##.-h-banner-svg-desktop
+nhl.com##.-leaderboard
+nhl.com##.-mrec
 hellomagazine.com##.-variation-megabanner
 gamesadshopper.com##.AD
 advfn.com##.APS_TOP_BANNER_468_X_60_container
@@ -62778,6 +62780,7 @@ geeksforgeeks.org##div[id^="GFG_AD_"]
 weather.com##div[id^="Taboola-main-"]
 apkonline.net,kisshentai.net,onworks.net##div[id^="ad"]
 songlyrics.com##div[id^="ad-absolute-160"]
+nationalrail.co.uk##div[id^="ad-advert-"]
 timeout.com##div[id^="ad-promo-"]
 timeout.com##div[id^="ad-side-"]
 nowgoal8.com##div[id^="ad_"]
