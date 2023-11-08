@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: uq8ZeAXey5BHDQMEknLNCA
-! Version: 202311071602
+! Checksum: 7PHKQDpmYGgdO6kSQUsLKQ
+! Version: 202311080040
 ! Title: EasyPrivacy
-! Last modified: 07 Nov 2023 16:02 UTC
+! Last modified: 08 Nov 2023 00:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1875,6 +1875,7 @@
 /rtracker/ofs.rtt.js
 /rudder-analytics.js
 /rudder-analytics.min.js
+/rum-collector/*
 /rum-telemetry/*
 /rum-track?
 /rum.gif?
@@ -2336,6 +2337,7 @@
 /track_pixel?
 /track_proxy?
 /track_stat?
+/track_video.php?id=
 /track_visit.js
 /track_visit?
 /track_visitor?
@@ -2941,6 +2943,7 @@ _WebVitalsReporter_
 /link.coindesk.com/img/*
 /link.divenewsletter.com/img/*$image
 /link.e-mail.*/mo/*$image
+/link.email.usmagazine.com/img/*$image
 /link.morningbrew.com/img/*.gif
 /link.news.*/mo/*$image
 /link.oneplus.com/mo$image
@@ -2961,6 +2964,7 @@ _WebVitalsReporter_
 /newsletter/read?s=$image
 /newslink.reuters.com/img/*$image
 /newtrackingscript.
+/notifications.google.com/g/img/*$image
 /notifications.googleapis.com/email/t/*
 /notifications/beacon/*
 /open.aspx?
@@ -4184,6 +4188,7 @@ _mongo_stats/
 ||ensighten.com^$third-party
 ||enticelabs.com^$third-party
 ||entravision.com^$third-party
+||envoke.com^$third-party
 ||eolcdn.com^$third-party
 ||ep4p.com^$third-party
 ||eperfectdata.com^$third-party
@@ -13958,6 +13963,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||walmart.ca/api/home-page/logger
 ||walmart.ca/api/landing-page/beacon-logger
 ||walmartimages.com/dfw/4ff9c6c9-d9a0/$domain=walmart.com
+||wattpad.com/js/tracker/app.
 ||wc.yahoodns.net^$image
 ||wccftech.com/cnt7vfDVvWa3.js
 ||web.whatsapp.com/wam
