@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: SVY4+yOz0cV2ThAujie+Ug
-! Version: 202401070041
+! Checksum: FC+/gjbdDknbEen8tylWsw
+! Version: 202401070802
 ! Title: EasyList China
-! Last modified: 07 Jan 2024 00:41 UTC
+! Last modified: 07 Jan 2024 08:02 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1618,6 +1618,8 @@ newduba.cn###jq_youxi
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+##.ddd.ng-star-inserted
+##vg-pause-d > .vg-v-p
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
 ##script + div[id^="a-loading-"]
@@ -2976,6 +2978,13 @@ newduba.cn###jq_youxi
 ||bhktalt.cn^
 ||yfzpxnb.xyz^
 ||fjhrq.xyz^
+||aojeet.icu^
+||uuoizbtl.xyz^
+||lkrv.top^
+||szmty.cn^
+||buoizbtl.xyz^
+||xuoizbtl.xyz^
+||dnn1300.top^
 ||zzyy19.top^
 ||zzyy20.top^
 !
@@ -16673,6 +16682,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
 @@.adserver.$domain=litv.tv
+@@/adpro.js$domain=tingfm.com
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
