@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260211011327
-! Last modified: 2026/02/11 01:13:27
-! Blocked Filters: 104729
+! Version: 20260211101105
+! Last modified: 2026/02/11 10:11:05
+! Blocked Filters: 104734
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -8949,6 +8949,11 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 2dfan.com,galge.fun##.leftside-bg
 2dway.com##a[href="https://www.2dway.com/5244/"]
 2ememain.be##.hz-Banner
+2fa.live###ads_row
+2fa.live##.not_vn
+2fa.live##[alt="Advertisement"]
+2fa.live##p:has-text(Advertising)
+2fa.live#?#p:contains(Advertising)
 2gb.com##.related_articles
 2ip.*#?#.ipblockgradient > div.ip + div[class]:contains(IP)
 2ip.io,2ip.ru###main-menu > nav > ul > li > a[target="_blank"]
@@ -25052,6 +25057,7 @@ arenda.az##.center2 > a[href].bann
 arenda.az##.kurs_banner
 arenda.az,globalinfo.az,sfera.az,metbuat.az##.ainsyndication
 aresnov.org###floatcenter
+argos.co.uk##.ds-c-grid-item:has(div[class*="ProductCardstyles__SponsoredBadge-"])
 argos.co.uk##[class^="styles__LazyHydrateCard"]:has([class*="ProductCardstyles__FlyoutBadge"])
 argos.co.uk##[class^="styles__LazyHydrateCard-sc"]:has([class*="SponsoredBadge"])
 argos.co.uk##[data-testid="citrus_products-carousel"]
@@ -77814,7 +77820,6 @@ zzzyk.com###Tinfo
 ||assets.s-bol.com/AppMeasurement-
 ||assets.sb-cd.com/static/common/js/bjssu_$domain=spankbang.com
 ||assets.sheetmusicplus.com^$third-party
-||assets.targetimg1.com/ssx/ssx.mod.js$domain=target.com
 ||assets.thalia.media/ocsassets/heimdall/consent-banner-bootstrap/main-nomodule.*.js$domain=osiander.de
 ||assets.trendii.com/pixel/main.js
 ||assets.tumblr.com/pop/monetization/html/*.html
