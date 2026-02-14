@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260214095739
-! Last modified: 2026/02/14 09:57:39
-! Blocked Filters: 104797
+! Version: 20260214164124
+! Last modified: 2026/02/14 16:41:24
+! Blocked Filters: 104793
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -8551,25 +8551,14 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 18comic.org,18comic.vip,18comic.ink#?#:-abp-has(>ins+script)
 18comic.org,18comic.vip,18comic.ink#?#:-abp-has(>ins+style)
 18comic.org,18comic.vip,18comic.ink#?#:-abp-has(>script+ins)
+18comic.org,18comic.vip,18comic.ink#?#:has(>ins+div)
+18comic.org,18comic.vip,18comic.ink#?#:has(>ins+script)
+18comic.org,18comic.vip,18comic.ink#?#:has(>ins+style)
+18comic.org,18comic.vip,18comic.ink#?#:has(>script+ins)
 18comic.org,18comic.vip,18comic.ink#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
+18comic.org,18comic.vip,18comic.ink#?#:not(body):has(>script[src*=".realsrv.com"])
 18comic.org,18comic.vip,18comic.ink#?#div[data-group]:-abp-has(>.group-notice)
-18comic.org,18comic.vip,jm18c-jjd.club###guide-modal
-18comic.org,18comic.vip,jm18c-jjd.club##.div_sticky2
-18comic.org,18comic.vip,jm18c-jjd.club##.modal-backdrop
-18comic.org,18comic.vip,jm18c-jjd.club##.row[style="display: flex;flex-wrap: wrap;"]
-18comic.org,18comic.vip,jm18c-jjd.club##a[herf*="//"]:not([href*="18c"]) > img
-18comic.org,18comic.vip,jm18c-jjd.club##a[href*="//"]:not([href*="18c"]) > [style*="back"]
-18comic.org,18comic.vip,jm18c-jjd.club##a[href*="//"]:not([href*="18c"]) > div[style]
-18comic.org,18comic.vip,jm18c-jjd.club##a[href*="//"]:not([href*="18c"]) > img
-18comic.org,18comic.vip,jm18c-jjd.club##a[href*="//"]:not([href*="18c"]) > img + [style]
-18comic.org,18comic.vip,jm18c-jjd.club##div[data-group][data-width="300"]
-18comic.org,18comic.vip,jm18c-jjd.club##style + div[style="cursor: pointer; position: relative;"]
-18comic.org,18comic.vip,jm18c-jjd.club#?#:has(>ins+div)
-18comic.org,18comic.vip,jm18c-jjd.club#?#:has(>ins+script)
-18comic.org,18comic.vip,jm18c-jjd.club#?#:has(>ins+style)
-18comic.org,18comic.vip,jm18c-jjd.club#?#:has(>script+ins)
-18comic.org,18comic.vip,jm18c-jjd.club#?#:not(body):has(>script[src*=".realsrv.com"])
-18comic.org,18comic.vip,jm18c-jjd.club#?#div[data-group]:has(>.group-notice)
+18comic.org,18comic.vip,18comic.ink#?#div[data-group]:has(>.group-notice)
 18comic.org,18comic.vip,jmcomic1.win#@?#:has(> script[src*=".realsrv.com"])
 18h.animezilla.com###manga-bottom
 18j.tv##div[class="container"] > div.main > div[class]:has(> a[href][target="_blank"][rel="nofollow"])
@@ -26772,6 +26761,7 @@ benchmarkreviews.com#$#html > body { background-image: none!important; }
 bendibao.com###wxbox
 bendibao.com##.content_r_ad300
 bendibao.com##DIV[id^="f21ac82b21eeb7322631b6aa94e17f"]
+bengali.news18.com##.ffad
 benxiang.com##.ad_duilian
 benxiang.com##.ad_ld
 benxiang.com##.w-hot-link-txt
@@ -52669,7 +52659,9 @@ news18.com##.desktopadh
 news18.com##.desktopflex
 news18.com##.election_left > div[style^="width:100%;height:100px;display:flex;"]
 news18.com##.ftrad
+news18.com##.lastTaboola
 news18.com##.mc-ad
+news18.com##.mid-taboola
 news18.com##.n18nheader > div.n18thder
 news18.com##.obBody
 news18.com##.pani-wid
@@ -52680,6 +52672,7 @@ news18.com##.recomeded_story div[style="min-height: 100px;"]
 news18.com##.sideTop
 news18.com##.taboolaWrap
 news18.com##a[href^="https://www.moneycontrol.com/"] > img
+news18.com##div.mainAds_contnr
 news18.com##div[style*="min-height"][style*="background"]
 news18.com##div[style*="min-height: 250px"]
 news18.com##div[style*="min-height:250px"]
@@ -52694,6 +52687,7 @@ news18.com,firstpost.com##.TABOOLA
 news18.com,readcomiconline.li##div[style*="width: 300px"]
 news18a.com##.ina_ad_left
 news18a.com,tom.com##.ina_ad_class
+news18marathi.com##.ftrad
 news24.com##.featured-category
 news247.gr##body .ad-widget
 news24online.com##.add-section_300x250
@@ -64513,6 +64507,7 @@ telugu.boldsky.com##.right-panel > div.gap10 > div[style="min-height:250px;"]
 telugu.hindustantimes.com##.advMasterSlot
 telugu.hindustantimes.com##.logoBandAdBox
 telugu.hindustantimes.com##.mainBodyWrapper div[class*="adv"]
+telugu.news18.com##.comttlwrp
 telugu360.com##.article_top_ads
 telugu360.com##.box-container
 telugu360.com##.gogleAds_left
@@ -82013,6 +82008,7 @@ zzzyk.com###Tinfo
 ||crunchyroll.com/awidget/
 ||crunchyroll.com/tracker?
 ||crxcr1.com^$third-party
+||crxs.me/service/assets/core-state.
 ||cryingforanyth.com^$popup
 ||cryorganichash.com^$popup
 ||crypto-coins.com^$third-party
