@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260218100531
-! Last modified: 2026/02/18 10:05:31
-! Blocked Filters: 104825
+! Version: 20260218165315
+! Last modified: 2026/02/18 16:53:15
+! Blocked Filters: 104832
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -58942,8 +58942,8 @@ republicworld.com##.lbdesktop
 republicworld.com##.leftVerticleAd
 republicworld.com##.min-h-\[290px\]
 republicworld.com##.rightVerticleAd
+republicworld.com##.storyContent > #descwithads > div[class^="min-h-"]:has(> .adWrap)
 republicworld.com##div.items-center:has(> .adWidget)
-republicworld.com#?#div[class*="mrgnbtm"] > div[id^="div-gpt-ad"]:upward(1)
 repuls.io###monetization
 repuls.io###partnerAd_letter
 researchers.pw###wmg-ad-container
@@ -63524,6 +63524,10 @@ svapo.it#$#.adsbox.doubleclick.ad-placement { display: block !important; }
 svapo.it#%#//scriptlet('prevent-setTimeout', '/window\.location[\s\S]*?\/adb\//')
 svapo.it#@#.ad-placement
 sveopoznatima.com#?##secondary > aside:has(> div.widget-header > h3:contains(/Marketing|Sponzorisano/))
+svet24.si###ocm-inread
+svet24.si##div[data-ocm-ad]
+svet24.si##div[id^="svet_billboard"]
+svet24.si##div[id^="svet_sidebar"]
 svetandroida.cz##.bg-center[class*="img/ads.png"]
 svetandroida.cz##.sveta-target[data-sveta-trackid]:has(> .sveta-adlabel)
 svetandroida.cz#%#//scriptlet("abort-on-property-read", "detectAdBlocker")
@@ -96583,6 +96587,7 @@ zzzyk.com###Tinfo
 ||repstatic.it^*/nielsen_static_mapping_repubblica_
 ||republer.com^$third-party
 ||republicmonitor.com/images/lundy-placeholder.jpeg
+||republicworld.com/_app/immutable/assets/FloatAd.*.css$redirect-rule=nooptext
 ||requestmetrics.com^$third-party
 ||requirejs.cn/ts.png
 ||reroplittrewheck.pro^$popup
@@ -99082,6 +99087,7 @@ zzzyk.com###Tinfo
 ||static.primacdn.cz/sas/ads/templates/creatives.js
 ||static.primacdn.cz/sas/sas/sasspa.js
 ||static.qiyi.com/js/pingback/
+||static.republicworld.com/assets/js/ads.min.js
 ||static.rolex.com/clocks/$third-party
 ||static.selfpua.com/mnpw.js
 ||static.showheroes.com/publishertag.js
@@ -99601,6 +99607,7 @@ zzzyk.com###Tinfo
 ||svc.dynamics.com/f/m/$third-party
 ||svc.dynamics.com/t/v/$third-party
 ||svc.dynamics.com/t/w$third-party
+||svet24.si/build/assets/adbeacon.js
 ||svetapple.sk/*/ecophone-banner.jpg
 ||svgcolor.com/assets/js/template/anti-block.js
 ||svonm.com/www.katsomo.fi/config.json$replace=/"enabled": true\,/"enabled": false\,/i,domain=mtv.fi,important
