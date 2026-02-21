@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260221004740
-! Last modified: 2026/02/21 00:47:40
-! Blocked Filters: 104884
+! Version: 20260221095347
+! Last modified: 2026/02/21 09:53:47
+! Blocked Filters: 104886
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -71314,6 +71314,7 @@ www.google.*##div[data-is-ad="1"]
 www.google.*##div[data-is-promoted-hotel-ad="true"]
 www.google.*##div[data-section-type="ads"]
 www.google.*##div[data-tweed-card]:has(a[href^="https://www.google.com/aclk?"])
+www.google.*##div[jscontroller="DbCX3b"]:has(a[href^="/aclk?"])
 www.google.*##div[jsdata*="CarouselPLA-"][data-id^="CarouselPLA-"]
 www.google.*##div[jsdata*="SinglePLA-"][data-id^="SinglePLA-"]
 www.google.*##html[itemtype="http://schema.org/SearchResultsPage"] #cnt div[class$="sh-sr__bau"]
@@ -71614,6 +71615,7 @@ wydarzenia.interia.pl,sport.interia.pl##div[class^="sc-"]:has(> div[data-iwa-vie
 wydarzenia.interia.pl,sport.interia.pl##div[class^="sc-"]:has(> div[id^="ad-view-rectangle"]:first-child + div[data-iwa-viewability-name]:last-child > .ad:only-child)
 wydy8.com##[height="83"]
 wykop.pl###wpladtop
+wykop.pl##.lisek-app
 wykop.pl##a[href^="https://www.wykop.pl/adverts"]
 wykop.pl##body .pub-slot-wrapper
 wykop.pl##div[id^="bmone2n-"]
