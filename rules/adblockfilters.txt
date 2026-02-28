@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260228005048
-! Last modified: 2026/02/28 00:50:48
-! Blocked Filters: 105084
+! Version: 20260228094037
+! Last modified: 2026/02/28 09:40:37
+! Blocked Filters: 105085
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -12514,6 +12514,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||audible.com^$stealth=3p-cookie
 @@||audience.io/api/$domain=campaign.aptivada.com
 @@||audiko.net/api/$stealth=referrer
+@@||audio-*.scdn.co/audio/$redirect=noopmp4-1s,app=com.apple.Safari
 @@||audiomodern.com^$stealth=ip
 @@||audiostream.com^$elemhide
 @@||audiotag.info/images/banner
