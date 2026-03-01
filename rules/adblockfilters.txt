@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260301003528
-! Last modified: 2026/03/01 00:35:28
-! Blocked Filters: 105094
+! Version: 20260301100935
+! Last modified: 2026/03/01 10:09:35
+! Blocked Filters: 105097
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -27613,6 +27613,7 @@ bleepingcomputer.com##[href*="https://www.bleepingcomputer.com/mgo/"]
 bleepingcomputer.com##[href^="https://www.adaptivesecurity.com/"]
 bleepingcomputer.com##[href^="https://www.bleepingcomputer.com/go/"]
 bleepingcomputer.com##[href^="https://www.threatlocker.com/"]
+bleepingcomputer.com##[href^="https://ztw.com/"]
 bleepingcomputer.com##[src*="https://www.bleepstatic.com/c/t/threatlocker/"]
 bleepingcomputer.com##a.center-link-image[target="_blank"][rel="sponsored noopener"]
 bleepingcomputer.com##a[href="https://try.flare.io/bleeping-computer/"] > img
@@ -29448,6 +29449,7 @@ chartoo.in,chartoo.de,chartoo.com##aside#ej
 chartoo.in,chartoo.de,chartoo.com##aside#eq
 chartstream.net###b6c3
 chasedream.com##.a_h,.a_f,[id^="diycd-board"]
+chaser.com.au##.chaser-banner-ad
 chaseyoursport.com###popup1
 chaseyoursport.com##.adv-slot
 chaseyoursport.com##.floating-adv
@@ -34915,7 +34917,6 @@ engadget.com##div[class]:has(> div[id*="TF"][id*="-"]:empty)
 engadget.com##div[data-component="GeminiAdItem"]
 engadget.com##div[data-wf-image-beacons]
 engadget.com##div[id^="sda-LDRB2-"]
-engadget.com##li.lg\:min-h-\[234px\]
 engadget.com##section.md\:min-h-\[310px\]
 engadget.com##ul[data-component="LatestStream"] > li[class*="engadgetGutter"]:has(> a[data-ylk*=":Sponsored"])
 engadget.com#?##post-right-col > div[class]:has(> #RR)
@@ -52964,6 +52965,8 @@ newsnow.com,newsnow.co.uk##.newsfeed__inner > div:has(> div.container__group > d
 newsobserver.com##div[id^="zone-el"][isdynamictemps]
 newsofx2.com#%#//scriptlet('abort-on-stack-trace', 'document.createElement', 'eval')
 newson.us#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
+newson6.com##.Page-footer-Ad-overlay
+newson6.com##.Page-header-Ad-Slot
 newson6.com##.gnm-banner-ad
 newson6.com##.gnm-page-template > div:has(> div.gnm-bg-ad)
 newson6.com##.ti-ad
