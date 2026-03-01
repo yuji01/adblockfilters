@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260301100935
-! Last modified: 2026/03/01 10:09:35
-! Blocked Filters: 105097
+! Version: 20260301164157
+! Last modified: 2026/03/01 16:41:57
+! Blocked Filters: 105099
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -9878,7 +9878,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 6abc.com#$#.nav.sticky { top: 0px !important; }
 6abc.com,abc11.com,abc13.com,abc30.com,abc7.com,abc7chicago.com,abc7news.com,abc7ny.com##.StickyAdWrapper
 6abc.com,abc11.com,abc13.com,abc30.com,abc7.com,abc7chicago.com,abc7news.com,abc7ny.com##.leaderboard2
-6abc.com,abcnews.go.com,goodmorningamerica.com##.taboola
+6abc.com,abcnews.com,goodmorningamerica.com##.taboola
 6d6f.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 6fzd.com,eyy5.cn,fzd3.com##.area1
 6fzd.com,fzd3.com###comiis_app_block_22
@@ -16391,7 +16391,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=zee5.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=zoomtventertainment.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$important,domain=digi24.ro
-@@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=abcnews.go.com|brightcove.net|cbsnews.com|embed.sportsline.com|insideedition.com|pch.com|utsports.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=brightcove.net|cbsnews.com|embed.sportsline.com|insideedition.com|pch.com|utsports.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=cbssports.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=maxpreps.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3_debug.js$domain=repubblica.it
@@ -22898,15 +22898,13 @@ abc13.com##.adRectangle-pos-large
 abc7news.com###themeProvider > div[class]:has(> div > div > div.placeholderWrapper)
 abc7news.com#$#.StickyAdWrapper + section.nav { top: 0 !important; }
 abc7news.com#$#.StickyAdWrapper { display: none !important; }
+abcnews.com##[data-testid="prism-sticky-ad"]
 abcnews.go.com###themeProvider > div[class]:has(> div[class] > div[data-box-type="fitt-adbox-thinbannerhome"])
 abcnews.go.com##.ScrollSpy_container > div[data-container="band"]:has(> div[class] > div.taboola)
 abcnews.go.com##.ScrollSpy_container > div[data-container="band"]:has(> div[class] > div[data-box-type^="fitt-adbox-thinbanner"])
 abcnews.go.com##.navigation__hulu
-abcnews.go.com##[data-testid="prism-sticky-ad"]
-abcnews.go.com##div[data-container="band"]:has(> div > div[data-box-type="fitt-adbox-thinbannerhome"])
 abcnews.go.com#$#.StickyAdWrapper { display: none !important; }
 abcnews.go.com#$#.navigation--has-subnav { top: 0 !important; }
-abcnews.go.com,edarabia.com##.leaderboard-970
 abcya.com##.a-leader
 abcya.com##.a-skyscraper
 abcya.com#%#//scriptlet("set-constant", "Bolt._adBlockDetected", "true")
@@ -34350,6 +34348,7 @@ ecosolardigest.com#%#//scriptlet('prevent-fetch', 'doubleclick.net')
 ecoursefree.com##.td-header-rec-wrap
 ecpoc.com##.arcbodyad
 edarabia.com##.leaderboard-728
+edarabia.com##.leaderboard-970
 edarabia.com##.mpu-300
 edarabia.com##.sky-600
 edc1014001.pixnet.net##a[onmouseover]
@@ -70969,6 +70968,8 @@ wooordhunt.ru#?##content > div[style*="min-height"]:not([id]):has(> .adsbygoogle
 woopread.com##.dcads
 woorkup.com##.kinsta
 woorkup.com##.perfmatters
+woot.com###cdm-zone-02
+woot.com##.css-1e4mcj
 woot.com##[data-test-ui="advertisement-cdm-zone-01"]
 woot.com##[data-test-ui="advertisement-cdm-zone-02"]
 woot.com##[data-test-ui="advertisement-cdm-zone-03"]
@@ -88185,6 +88186,7 @@ zzzyk.com###Tinfo
 ||img.ithome.com/file/js/jquery/popwin.js
 ||img.jin10.com/event/*_
 ||img.kingsnug.cn/Public/js/jquery.raty.min.js$domain=nicotv.cc
+||img.konami.com/games/s/common/js/analytics.js
 ||img.kota*.casa/images/idxbet/
 ||img.kuai.xunlei.com/js/statistics.js
 ||img.kurzy.cz/*/*/*;ad=
