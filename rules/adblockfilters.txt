@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260309003710
-! Last modified: 2026/03/09 00:37:10
-! Blocked Filters: 105273
+! Version: 20260309100254
+! Last modified: 2026/03/09 10:02:54
+! Blocked Filters: 105276
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -17851,6 +17851,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||nbcolympics.com/profiles/olympics/*$domain=nbcolympics.com
 @@||nbe.com.eg/NBEeChannelManager/CallMW.aspx$~third-party
 @@||nbyts.online^$generichide
+@@||nc-cdn.oss-us-west-1.aliyuncs.com/videotranscriber/upload/$stealth=3p-auth
 @@||nc-myus.com/images/pub/www/uploads/merchant-logos/$image,~third-party
 @@||ncaa.com^$generichide
 @@||nceea.cn/Content/images/ad/
@@ -81170,6 +81171,7 @@ zzzyk.com###Tinfo
 ||cijoorsairgusa.com^$popup
 ||ciliba.org/Public/static/js/common-v2.js^
 ||cilimao.*/amaod/
+||cilipa.com^*0.js
 ||cimeterbren.top^$popup
 ||cimg.cnyes.cool/prod/adContent/$image
 ||cimri.com/api/pixel
@@ -82959,6 +82961,7 @@ zzzyk.com###Tinfo
 ||defistation.io/static/media/banner_
 ||degg.site^$document
 ||deghooda.net^$popup
+||degreedistance.cfd^$document
 ||deiligejenter.com/testfile23.js
 ||dein-plan.de/t.gif
 ||deine-tierwelt.de/ajax/responsive/stats.php?
