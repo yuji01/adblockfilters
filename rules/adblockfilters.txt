@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260310094409
-! Last modified: 2026/03/10 09:44:09
-! Blocked Filters: 105312
+! Version: 20260310165039
+! Last modified: 2026/03/10 16:50:39
+! Blocked Filters: 105325
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -9440,6 +9440,9 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 4hu.tv##.couplet-left
 4hu.tv##.wrap > div.mod > div.row > dl:has(> dt > a[target="_blank"]:not([href^="/html/"]) > img)
 4k123.com##.comeing_wad,.a_pb
+4k69.com##a[href^="https://theporndude."]
+4k69.com##center > a[href^="https://AVporner.com/"]
+4k69.com##div[id^="hwgrid_"]
 4khd.com##.centbtd
 4khd.com##.popup-iframe
 4khd.com,uuss.uk##iframe.popup-iframe
@@ -14921,7 +14924,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||freecourseweb.com^$generichide
 @@||freedidi.com^$generichide
 @@||freedom3d.art^$generichide
-@@||freedownloadae.com^$generichide
 @@||freeiphone.fr^$generichide
 @@||freemagazines.top^$generichide
 @@||freemagazinespdf.com^$generichide
@@ -25807,6 +25809,7 @@ avpgalaxy.net#%#//scriptlet('set-constant', 'passthetest', 'false')
 avple.tv##.MuiSkeleton-root
 avple.tv##.jss13
 avple.tv##.jss20
+avporner.com##a[href="https://4k69.com"]
 avppx.com##.top
 avseesee.com##.ads,.ads-player,iframe[width="585"][height="260"]
 avsubthai.me###page > center
@@ -35361,6 +35364,8 @@ etxt.biz##.mod-cabinet__sidebar-info
 etymonline.com##.adContainer--6CVz1
 etymonline.com##.fixed:has(> div[id^="div-gpt-ad-"])
 etymonline.com##div[class*="bg-secondary"]:has(> div[class] > div.relative > div[id^="div-gpt-ad-"])
+etymonline.com##main .space-y-2:has(> .relative > .w-full > .justify-center > .adsbygoogle)
+etymonline.com##main .space-y-2:has(> .relative > .w-full > .justify-center > .flex > div[id^="afscontainer"])
 etymonline.com#?#.w-full:has(> div[class^="space-"] > div.flex > button:contains(Remove Ads))
 eu.press-citizen.com##.page-background-placeholder
 eu.press-citizen.com##.secondary:has(> div.content-well > div.module-slot > partner-poster)
@@ -37579,6 +37584,8 @@ fqxsw.com##.dahengfu,[src^="http://news.9377bh.com/"]
 fr2135.com###friendLink_contents
 fr2135.com###mv_mp4cg
 fragrantica.*##.fuseheader
+fragrantica.com###all-reviews .grid-x > .destinationreview ~ div:not(.fragrance-review-box)
+fragrantica.com##main div.relative[itemtype="http://schema.org/Product"] > div[class]:not(.grid):not([id]):has(a[href^="/goto.php?"])
 fragrantica.com,fragrantica.ru##.text-center.cell > div[style^="clear: both; width: 100%; text-align: left; padding:"]
 fragrantica.com,fragrantica.ru##.text-center.cell > div[style^="clear: both; width: 100%; text-align: left; padding:"] + div > sup
 fragrantica.com,fragrantica.ru##.text-center.cell > div[style^="clear:both;width:100%;text-align:left;padding:"]
@@ -41094,6 +41101,7 @@ hdporn92.com##div[id^="div_theAd_slider_"]
 hdporn92.com,javflix.net,ofansleaks.com##.happy-header
 hdporncomics.com###sidebar-right > #custom_html-9
 hdporncomics.com###sidebar-right > #text-3
+hdporner.tv,sxyporn.tv#%#//scriptlet('prevent-addEventListener', 'message', 'handleTrigger')
 hdpornfree.xxx##.container:has(> iframe[src^="//hdpornfree.xxx/sup/"])
 hdpornmax.com#?#.container > h2:contains(Recommended)
 hdporno.xxx,poz.xxx,jerkwell.com,pornbaron.net,porn2.xxx,watch.xxx,tubeporn.site,myporn.tube,pornfree.gg,porn69.xxx,beeg.gg,porntek.com,haha.xxx,longvideos.xxx,hdporner.org,porno.wiki,3porn.gg,33porn.net,hqporner.gg,300.porn,sexyporn.org,pornstars.gg,sexvideos.gg,ixxx.gg,sexyporn.xxx,pornhd.tube,porn36.com,porn9.xxx,porn13.org,bee.xxx,filmz.xxx,xfilms.org,xporn.gg,porndo.net,tor.xxx,bestporn.gg,eporn.xxx,fullpornvideos.xxx,24porn.biz,bigporn.org,pornfulls.com,fullmovies.xxx,pornvideos.gg,pornfilms.xxx,hdporn.gg,porntube.gg,1porn.tv,freeporn.gg,freepornmovies.net,freeporntube.tv,freesexvideos.xxx,wow.xxx,fullhd.xxx,porner.xxx,fullvideos.xxx,omg.xxx,4kporno.xxx,fullporn.*,fullporno.xxx,freepornvideos.xxx##.sponsor
@@ -68689,6 +68697,7 @@ url.namaidani.com##iframe#frame
 url.namaidani.com#%#//scriptlet("prevent-window-open")
 urlcut.ninja#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 urlebird.com##div.download > div.mb-2 > div#frame
+urlencoder.org,uglifycss.com,uglifyjs.net,prettifycss.com,prettifyjs.net,beautifyjson.org,minifyjson.org,base64encode.org,base64decode.org##.column:has(> ins[class^="ad_"]:only-child)
 urlgalleries.net###ifrm
 urlgalleries.net##.gallerybody > center > table + center > table[width="100%"]
 urlgalleries.net##iframe[src="/200x90.php"]
@@ -75179,6 +75188,7 @@ zzzyk.com###Tinfo
 ||4gtv.tv/js/ga_
 ||4hds.com/js/camstats.js
 ||4hw.com.cn/js/common.js
+||4k69.com/themes/lite/js/mztn.js
 ||4khd.com/content/$replace=/^((?!<style>)[\s\S])*<\/style>\n<style/<style/,document
 ||4kporn.xxx/static/analytics/
 ||4kporn.xxx/static/js/sj.js
@@ -78561,6 +78571,7 @@ zzzyk.com###Tinfo
 ||avocams.com^$popup
 ||avogex.com^$document
 ||avple.video/asset/bann.js
+||avporner.com/themes/lite/js/mztn.js
 ||avseesee.com/amandison.php
 ||avseesee.com/htmls/vlinks.html
 ||avseesee.com/twad
@@ -95608,6 +95619,7 @@ zzzyk.com###Tinfo
 ||pornwatchers.com/boom/*.html
 ||pornwatchers.com/frexo.js
 ||pornwatchers.com/sw.js
+||pornwex.tv/wp.js
 ||pornwhite.com/js/customscript.js
 ||pornwhite.com/js/license*.js
 ||pornwhite.com/js/script*.js
@@ -99931,6 +99943,7 @@ zzzyk.com###Tinfo
 ||su.bdimg.com/static/dspui/js/
 ||su.pr/hosted_js$third-party
 ||suaurl.com/adblock/js/smarttag.js
+||sub-vod.fr/static/monetag2.js
 ||sub2tech.com^$third-party
 ||subhd.*/kaiyad.
 ||subhd.com/images/970pujin.gif
