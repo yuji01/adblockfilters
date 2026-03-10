@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260310010823
-! Last modified: 2026/03/10 01:08:23
-! Blocked Filters: 105308
+! Version: 20260310094409
+! Last modified: 2026/03/10 09:44:09
+! Blocked Filters: 105312
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -28726,6 +28726,7 @@ cakhia.com##.modal-backdrop
 cakhia19.tv##.close-banner
 cakhia19.tv##.modal-ads
 calcalistech.com##.Ctech_general_banner
+calcalistech.com##.calcalist_banner
 calcbasic.com##.sidebar:has(> .ad)
 calciomercato.com##.fco-ad
 calciomercato.com$$script[tag-content="new FuckAdBlock"][max-length="30000"]
@@ -59697,6 +59698,7 @@ rrys2019.com##.float_middel_ad_bk
 rrys2019.com##.key-result > li > a[href*=".taobao.com"]
 rrys2020.com###indexNav1
 rrys2020.com##.corner > LI > A[href*="yyets."]
+rs-online.com##.sponsored-products
 rs05.com##[class^="adv_"]
 rs66.com##.arttopad1
 rsbnetwork.com##div[id^="rsbne-"]
@@ -69472,7 +69474,7 @@ viralsciencecreativity.com##div[id^="pagePinnedMiddle"]
 viralthread.com#@#.affiliate
 viralxxxporn.com##.footer-scroller:has(> .bottom-adv)
 viralxxxporn.com##.sidebar-adv
-viralxxxporn.com#%#//scriptlet('prevent-setTimeout', '.style.visibility')
+viralxxxporn.com#%#//scriptlet('prevent-setTimeout', '.style.visibility', '2000')
 viralxxxporn.com,thothub.vip,wxx.wtf,camhub.world#$#body iframe#ads_iframe[src*="/player_ads.html"] { display: block !important; }
 viralxxxporn.com,thothub.vip,yesporn.vip,85po.com,85po.net,85xo.com,85xo.com,watchmdh.to,watchporn.to,viralpornhub.com,camwhoresbay.porn,watchmdh.to,ebalovo.porn,ebalovo.adult,camwhores.*,camlovers.tv,camhub.tv,pornissimo.org,porntn.com,femdomtb.com,pornoham.me,tubsexer.com,homegrownfreaks.net,pornfd.com,sexcams-24.com#@##ads_iframe
 viralxxxporn.com,thothub.vip,yesporn.vip,85po.com,85po.net,85xo.com,85xo.com,watchmdh.to,watchporn.to,viralpornhub.com,camwhoresbay.porn,watchmdh.to,ebalovo.porn,ebalovo.adult,camwhores.*,camlovers.tv,camhub.tv,pornissimo.org,porntn.com,femdomtb.com,pornoham.me,tubsexer.com,homegrownfreaks.net,pornfd.com,sexcams-24.com#@#.ads-iframe
@@ -78944,6 +78946,7 @@ zzzyk.com###Tinfo
 ||baoshuu.com/img/shu.js
 ||baoshuu.com/top/m*.js
 ||baoxian.163.com/$subdocument
+||bapi-*.moengage.com^
 ||baptisttop1000.com^$third-party
 ||baqend.com/v1/rum/
 ||bar*.shinobi.jp^
@@ -87748,6 +87751,7 @@ zzzyk.com###Tinfo
 ||hw-sh-pcdn-*.biliapi.net^
 ||hwcdn.net^*.mp4|$domain=pornchimp.com
 ||hwpub.com^$third-party
+||hxfile.co/adbdetect.js
 ||hxjs.tool.hexun.com$domain=~quote.hexun.com
 ||hxmanga.com^$popup
 ||hxsame.hexun.com/
