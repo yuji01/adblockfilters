@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260311010824
-! Last modified: 2026/03/11 01:08:24
-! Blocked Filters: 105329
+! Version: 20260311094343
+! Last modified: 2026/03/11 09:43:43
+! Blocked Filters: 105335
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -5614,6 +5614,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /nowscore/ad/*
 /nozomi4.js$domain=nozomi.la
 /np?log=
+/npm/disable-devtool
 /npm/perfops-rom
 /nr-spa-1216.min.js
 /ns.html?id=GTM-
@@ -23254,7 +23255,10 @@ adultgamesworld.com##.masonry-layout__panel:has(a[href^="https://access-the-webs
 adultgamesworld.com##.rel:has(> a[href^="https://animeamigos.org/"])
 adultgamesworld.com##.rel:has(a[href^="https://access-the-website.com/"])
 adultgamesworld.com##.tt
+adultgamesworld.com##a[href*="utm_source=agw-banner"]
 adultgamesworld.com##a[href^="https://joystick.tv/t/?t="]
+adultgamesworld.com##aside > div.widj:has(> div.textwidget > p > ins)
+adultgamesworld.com##iframe[src^="https://animeapp.org/"]
 adultgamesworld.com#%#//scriptlet('set-constant', 'doOpen', 'undefined')
 adultgifworld.com,babeshows.co.uk,boobieblog.com,fapnado.com,iseekgirls.com,the-new-lagoon.com##a[href^="http://refer.ccbill.com/cgi-bin/clicks.cgi?"]
 adulthub.ru#?##main > div.container > div.row > div[class] > div.widget > div.title:has(> h3:contains(/Partners$|Live Girls/))
@@ -63248,10 +63252,6 @@ starwarsaddicted.it#%#//scriptlet('set-constant', 'advanced_ads_check_adblocker'
 starwarsaddicted.it,wuyong.fun,26g.me,myqqjd.com,poapan.xyz,javboys.com,idevicecentral.com,fcportables.com,codehelppro.com#%#//scriptlet('abort-on-property-read', 'reqServers')
 stat-nba.com###ad_video
 statesman.com##article > div:has(> div:first-child + div[data-block-type="ad"]:last-child)
-statesville.com,wacotrib.com#%#//scriptlet('abort-on-property-read', 'TNCMS.Access')
-statesville.com,wacotrib.com#@#.ad-text
-statesville.com,wacotrib.com#@#.adContent
-statesville.com,wacotrib.com#@#.adSense
 static.g.iqiyi.com
 staticice.com.au##a[href^="http://prf.hn/click/"]
 staticice.com.au##table[width="100%"] > tbody > tr > td[height="15"][valign="top"]:only-child
@@ -67553,6 +67553,7 @@ tubesex.me###banneradv
 tubesex.me,xxxadd.com##.adban1
 tubesex.me/eureka
 tubev.sex##.sp_block_3-300-250
+tubewav.com#%#//scriptlet('prevent-window-open')
 tubewolf.com##.home-banner
 tubewolf.com##.network-links
 tubewolf.com##[id^="TA"][id*="-Native-"]
@@ -69769,6 +69770,9 @@ vpser.net##.ab_cpb
 vpser.net##.ab_cpr
 vpser.net##.ab_textlink1,.ab_pip,.az_pip
 vpser.net##.az_pip,.az_textlink1,.ac_pip
+vpstop.cn##a[href*="/ClickAd"]
+vpstop.cn##a[target="_blank"] > img[style^="width: 100%;max-height:"]
+vpstop.cn#?#.sidebar > div.uk-card:contains(赞助商家)
 vr-compare.com##div[style="min-height: 250px; background-color: rgba(0, 0, 0, 0.133); display: flex; justify-content: center; align-items: center;"]
 vr186.com##a.infotextkey > img
 vrbo.com##[data-stid="meso-ad"]
@@ -74236,6 +74240,7 @@ zzzyk.com###Tinfo
 ||*.js$domain=wenxue.m.iqiyi.com,app=com.qiyi.video
 ||*.legou*.com/images/*.gif$domain=lsj.tt-hk.cn
 ||*.libaishuo.com^
+||*.mp4$rewrite=abp-resource:blank-mp3,domain=huavod.com
 ||*.sinaimg.cn/*.gif$domain=470ww.com
 ||*.sinaimg.cn/*.gif$domain=ganbi66.com
 ||*.wap.xsbiquge.com^
@@ -101276,6 +101281,7 @@ zzzyk.com###Tinfo
 ||tra.scds.pmdstatic.net/sourcepoint/
 ||tracdelight.com^$third-party
 ||tracdelight.io^$third-party
+||trace-*.free-reels.com^
 ||trace-*.hungrypanda.co^
 ||trace-2000.com^$third-party
 ||trace.events^$third-party
