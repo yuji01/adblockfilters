@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260314164402
-! Last modified: 2026/03/14 16:44:02
-! Blocked Filters: 105450
+! Version: 20260315004013
+! Last modified: 2026/03/15 00:40:13
+! Blocked Filters: 105454
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -24275,6 +24275,9 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 android-x86.org#?#section > h6:contains(Advertisement)
 android.265g.com##div#fmt-wrap
 android.com.pl##.banner
+android.com.pl##.products-feed__tag
+android.com.pl##a[href="https://biznesenter.pl/"] > img[alt^="Baner"]
+android.com.pl##a[href^="https://and.co.pl/"][rel*="sponsored"]
 android.com.pl##div[class^="welcome-screen" i]
 android.com.pl#?#.post__content figure.wp-block-gallery:has(> figcaption.wp-element-caption:contains(linki afiliacyjne prowadzą do sklepu partnera))
 android.com.pl#?#.wp-block-acp-post-feed:has(> h2:contains(Promocje i oferty polecane przez redakcję))
@@ -43750,6 +43753,7 @@ indiedb.com,moddb.com##.supporter
 indiegamebundles.com##a[href^="https://www.humblebundle.com/subscription"]
 indojavstream.com##.box_item_ads_popup
 indojavstream.com#%#//scriptlet('prevent-window-open')
+indopanas.cyou#%#//scriptlet('set-constant', 'prerollActive', 'false')
 indosport.com###billboard-ad
 indulgexpress.com##div[class*="section_content_check_"]
 industryarena.com#?#.flex-grow > div:has(> div.portal-header-ad-swiper)
