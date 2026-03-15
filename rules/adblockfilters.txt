@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260315101231
-! Last modified: 2026/03/15 10:12:31
-! Blocked Filters: 105479
+! Version: 20260315164531
+! Last modified: 2026/03/15 16:45:31
+! Blocked Filters: 105487
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -8930,6 +8930,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 24sata.hr##.js_topProducts
 24timezones.com##.ad-container-diff
 24timezones.com##.ad-container-top-index
+24timezones.com##.ad-container-wtd
 24tsag.mn##.main-banner
 24ur.com##.site-adcontent
 24ur.com##onl-banner
@@ -45498,9 +45499,11 @@ jiemian.com##.header-container > div > section[style="width: 100%;"]
 jiemian.com##.nav-next-ad-views
 jigidi.com##.au-base
 jigsawplanet.com###cb984b30f2-4
+jigsawplanet.com###pl25 + div[id]
 jigsawplanet.com##.ts-ad-wrap
 jigsawplanet.com##[id^="tsi-"][style="height:90px;margin:0"]
 jigsawplanet.com##[id^="tsi-"][style="height:90px;margin:var(--block-vertical-spacing) 0"]
+jigsawplanet.com##[style="min-height:90px"]
 jigsawplanet.com##div[id^="tsi-"][style^="height:90px;margin:"]
 jigzone.com###dz
 jigzone.com###fH
@@ -70960,7 +70963,9 @@ wikijob.co.uk##.mv-video-target
 wikikeep.com##.widget-area
 wikipooster.com##noscript + div[id][class*=" "]
 wikisource.org#@#img[width="240"][height="400"]
+wikisport.cc#%#//scriptlet('prevent-addEventListener', 'click', 'window.open')
 wikisport.cc#%#//scriptlet('prevent-innerHTML', 'div', '_mtj')
+wikisport.cc#%#//scriptlet('prevent-window-open')
 wikitechy.com##.goto-top + div[id][class*=" "]
 wikiwand.com##.article_footerStickyAd__wvdui
 wikiwand.com##.article_sectionAd__rMyBc
@@ -80442,6 +80447,7 @@ zzzyk.com###Tinfo
 ||call-tracking.co.uk^$third-party
 ||call.thebutterfly.eu^$third-party
 ||call_domainname_here.$all
+||callindex.co.il/campaign/send_analytics.js
 ||callisto.fm^$third-party
 ||callmeasurement.com^$third-party
 ||callrail.com^$third-party
@@ -86760,6 +86766,7 @@ zzzyk.com###Tinfo
 ||grmtech.net^$third-party
 ||grokipedia.com/api/analytics
 ||grokipedia.com/api/ev
+||grokipedia.com/api/stats
 ||groove.so/unlocker.js
 ||groovinads.com^$third-party
 ||grosserhis.top^$popup
@@ -102444,6 +102451,7 @@ zzzyk.com###Tinfo
 ||usersonline.org/ping.php?
 ||userstatics.com/get/script.js
 ||usertracks.live^$third-party
+||userway.org/api/abn/events
 ||userway.org/api/seo-widget/
 ||userway.org/api/v1/stats
 ||userzoom.com^$third-party
