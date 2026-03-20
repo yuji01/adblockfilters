@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260320010758
-! Last modified: 2026/03/20 01:07:58
-! Blocked Filters: 105568
+! Version: 20260320100144
+! Last modified: 2026/03/20 10:01:44
+! Blocked Filters: 105578
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -6885,6 +6885,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /t.contactlab.it/v/*
 /t.gif?
 /t.ifly.southwest.com/*$image
+/t.notificationmail.microsoft.com/r/?id=$image
 /t.paypal.com/*$image
 /t.yesware.com/t/*$image
 /t/9/heis/svewg/*$third-party
@@ -18598,6 +18599,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=populistpress.com|canadafreepress.com|thelibertydaily.com|writerscafe.org|populist.press|welovetrump.com|grammarist.com|protrumpnews.com|gamersheroes.com|letocard.fr|100percentfedup.com|thepalmierireport.com|kresy.pl|beforeitsnews.com|thepatriotjournal.com|phoenixnewtimes.com|thepoke.co.uk|comicallyincorrect.com|thegatewaypundit.com|toptenz.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=porn4f.org
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=portmiamiwebcam.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=powerleagueprodigy.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=pracezdopravy.cz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=pradjadj.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=premid.app
@@ -27130,8 +27132,12 @@ bigleaguepolitics.com#$#header#mvp-main-head-wrap > nav#mvp-main-nav-wrap > .mvp
 bigleaguepolitics.com,flagandcross.com#%#//scriptlet("abort-on-property-read", "adtoniq")
 bigpixel.cn#$?##PAGE_AD_1 { remove: true; }
 bigpixel.cn#%#//scriptlet("set-constant", "killads", "true")
+bigshare.io##.artplayer-ads
+bigshare.io##.artplayer-counter
+bigshare.io##.artplayer-overlay
 bigshare.io#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'detectAdBlock')
 bigshare.io#%#//scriptlet('prevent-addEventListener', 'click', 'openAdTab')
+bigshare.io,herexxx.com,avdbapi.com,rule34vault.com,speedporn.net,taboodude.com,pornxp.ph,cdn.loadvid.com,vidara.so,vidara.to,pornwatch.ws,rpmplay.online,embedseek.online,pandamovies.org,hepidrive.online,hentaicop.com,livecamrips.*,asianporn.li,vik1ngfile.site,mangago.me,klmanga.ec,chochox.com,comick.art,qmh.sex,cap3.sex,hindilinks4u.*,doujindesu.tv,easyvidplayer.com,camwhores.*,player4me.*,faselhds.biz,severeporn.com,rule34video.com,niyaniya.moe,pornxp.net,upns.online,seekplayer.vip#%#//scriptlet('abort-current-inline-script', 'WebAssembly', 'atob')
 bigskyconf.com##.s-sponsors
 bigthink.com##.wrapper-connatixElements
 bigthink.com##.wrapper-connatixPlayspace
@@ -28754,7 +28760,7 @@ calendar-canada.ca##.d-md-block
 calendar-canada.ca#?#aside > .inner:has(> div > div[class^="r89-"][class*="-rectangle-"])
 calendar-canada.ca,osgamers.com##div[class^="r89-"][class*="-billboard-"]
 calendar-canada.ca,osgamers.com##div[class^="r89-"][class*="-rectangle-"]
-calendar-uk.co.uk,theartnewspaper.com##[style="min-height:250px;"]
+calendar-uk.co.uk,theartnewspaper.com,utctime.net##[style="min-height:250px;"]
 calendar.austinchronicle.com##.AirMedRectComboInlineResults1responsive
 calendar.austinchronicle.com##.AirMedRectComboInlineResults2responsive
 calendar.austinchronicle.com##.AirMedRectComboInlineResults3responsive
@@ -41645,7 +41651,6 @@ hercegovina.info##.banner-space
 herdeaths.net##.e3lan-post > a[href]
 herexxx.com###video-interlacing
 herexxx.com##.videos > div:not([id])
-herexxx.com,avdbapi.com,rule34vault.com,speedporn.net,taboodude.com,pornxp.ph,cdn.loadvid.com,vidara.so,vidara.to,pornwatch.ws,rpmplay.online,embedseek.online,pandamovies.org,hepidrive.online,hentaicop.com,livecamrips.*,asianporn.li,vik1ngfile.site,mangago.me,klmanga.ec,chochox.com,comick.art,qmh.sex,cap3.sex,hindilinks4u.*,doujindesu.tv,easyvidplayer.com,camwhores.*,player4me.*,faselhds.biz,severeporn.com,rule34video.com,niyaniya.moe,pornxp.net,upns.online,seekplayer.vip#%#//scriptlet('abort-current-inline-script', 'WebAssembly', 'atob')
 herexxx.com,kissjav.com#%#//scriptlet('prevent-addEventListener', 'click', 'triggerPop')
 herexxxtube.com#?#body > div.container:has(> h2:contains(/^Recommended$/))
 herfamily.ie,sportsjoe.ie###div-gpt-top_page
@@ -57517,6 +57522,10 @@ powergam.online,qrixpe.com,ajazijobs.in,bharti26.in,paidpe.com,grammarhindi.in,m
 powergam.online,qrixpe.com,ajazijobs.in,bharti26.in,paidpe.com,grammarhindi.in,mfulecollegewarud.org,parivahansewa.live,tezjobs.in$$script:contains(pop_done)
 powergam.online,qrixpe.com,ajazijobs.in,bharti26.in,paidpe.com,grammarhindi.in,mfulecollegewarud.org,parivahansewa.live,tezjobs.in,blacksattaking786.com,niraamjob.in,sparktrail.site,jjcommunication.shop,sociallytrendz.online,sanadegreecollege.in,stpaulsschool.org.in,timesnewss.com,oreopix.com,jobernnews.com,bhumibihar.co.in,abresult.in,merainsurance.xyz,siliconcraft.in,jankarishala.com,coinnai.com,merainsurance.xyz,emipe.online,sankarmusic.in,rozgarguide.com,sarkaricarer.com,examsnews.com,tallgalls.com,variedvortex.com,pubgmobile.cloud,general24news.in,arceusxdownload.com,htmlgames.website,iqmastered.com,jobjankari.online,procinehub.com#$##AdbModel { display: none !important; }
 powergam.online,qrixpe.com,ajazijobs.in,bharti26.in,paidpe.com,grammarhindi.in,mfulecollegewarud.org,parivahansewa.live,tezjobs.in,blacksattaking786.com,niraamjob.in,sparktrail.site,jjcommunication.shop,sociallytrendz.online,sanadegreecollege.in,stpaulsschool.org.in,timesnewss.com,oreopix.com,jobernnews.com,bhumibihar.co.in,abresult.in,merainsurance.xyz,siliconcraft.in,jankarishala.com,coinnai.com,merainsurance.xyz,emipe.online,sankarmusic.in,rozgarguide.com,sarkaricarer.com,examsnews.com,tallgalls.com,variedvortex.com,pubgmobile.cloud,general24news.in,arceusxdownload.com,htmlgames.website,iqmastered.com,jobjankari.online,procinehub.com#$#body { overflow: auto !important; }
+powerleagueprodigy.com#$#body { overflow: auto !important; padding-right: 0 !important; }
+powerleagueprodigy.com#$#div[aria-labelledby="adblock-modal-title"] { display: none !important; }
+powerleagueprodigy.com#@#ins.adsbygoogle[data-ad-client]
+powerleagueprodigy.com#@#ins.adsbygoogle[data-ad-slot]
 poweroutage.us##.cta-inline
 powerpyx.com##.code-block-14
 powiatowa.info#?#.jm-title-wrap > .jm-title:contains(/^REKLAMA$/)
@@ -68972,6 +68981,7 @@ ustream.to$$script[wildcard="*['push']*['shift']*decodeURIComponent*"][min-lengt
 utahgunexchange.com##.rev_slider_wrapper
 utahgunexchange.com##.tp-revslider-mainul
 utahgunexchange.com##[href*="/click.track"]
+utctime.net##[style="min-height:120px"]
 utilitymagazine.com.au,linoxide.com###text-36
 utils.surf#%#//scriptlet('prevent-fetch', 'www3.doubleclick.net')
 utne.com###URTK_Bottom_728x90
