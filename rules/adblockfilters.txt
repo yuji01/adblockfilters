@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260322100657
-! Last modified: 2026/03/22 10:06:57
-! Blocked Filters: 105591
+! Version: 20260322164436
+! Last modified: 2026/03/22 16:44:36
+! Blocked Filters: 105605
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -55884,6 +55884,20 @@ pichunter.com##.gallery-info:has(> div.gallery-info-sponsored)
 pichunter.com##.navbar-sub
 picjumbo.com#$#.adsbygoogle { height: 1px!important; }
 pick-up-artist-forum.com##div[id^="popup"]
+pickleball.com##.pickleball-com_ATF_leaderboard
+pickleball.com##.pickleball-com_incontent_728_reusable
+pickleball.com##.pickleball-com_siderail_left_atf
+pickleball.com##.pickleball-com_siderail_right_atf
+pickleballclubs.com##.pickleballclubs-com_incontent_970_reusable
+pickleballclubs.com##.pickleballclubs-com_leaderboard_atf
+pickleballleagues.com##.min-\[500px\]\:col-span-2.justify-center.flex.w-full:has(.pickleballleagues-com_incontent_300x250_reusable)
+pickleballleagues.com##.pickleballleagues-com_incontent_728_reusable
+pickleballleagues.com##.pickleballleagues-com_leaderboard_atf
+pickleballteamleagues.com##.pickleballteamleagues-com_incontent_970_reusable
+pickleballteamleagues.com##.pickleballteamleagues-com_leaderboard_atf
+pickleballtournaments.com##.pickleballtournaments-com_incontent_728_reusable
+pickleballtournaments.com##.pickleballtournaments-com_incontent_970_reusable
+pickleballtournaments.com##.pickleballtournaments-com_leaderboard_atf
 pickmypostcode.com###v-aside-rb
 pickmypostcode.com##.aside-right.aside
 pickmypostcode.com##.aside-sponsored
