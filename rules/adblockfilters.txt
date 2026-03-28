@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260328100346
-! Last modified: 2026/03/28 10:03:46
-! Blocked Filters: 105782
+! Version: 20260328164657
+! Last modified: 2026/03/28 16:46:57
+! Blocked Filters: 105790
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -4994,7 +4994,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /js/ad_common.js$script
 /js/adblockdetect.js$script
 /js/admiral-
-/js/adpopup.js$script
 /js/ads/*0.js
 /js/ads/*2.js
 /js/ads/*5.js
@@ -12094,6 +12093,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||analytics.edgekey.net/config/beacon-$xmlhttprequest,domain=raiplay.it
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=br.de
 @@||analytics.edgekey.net/ma_library/html5/html5_malibrary.js$script,domain=mxplayer.in
+@@||analytics.google.com/analytics/$~third-party
 @@||analytics.itunes.apple.com^$~third-party
 @@||ananas.chaoxing.com^*video/ad/
 @@||anandabazar.com/*ad$script
@@ -32563,6 +32563,7 @@ deejay.it#%#//scriptlet('prevent-element-src-loading', 'script', 'securepubads.g
 deejay.it#%#//scriptlet('prevent-element-src-loading', 'script', 'static.chartbeat.com')
 deep-edge.net,forums.digitalspy.com,marketwatch.com#@#.has-ad
 deepai.org###primis-ads
+deepai.org##.ctx-ad-container
 deepbrid.com##.content > div.rounded-md.text-theme-10
 deepbrid.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'adblock')
 deepbrid.com#@#.ad-banner-top
@@ -35482,6 +35483,7 @@ eurogirlsescort.com##.js-stt-click > picture
 eurogirlsescort.com##a[data-type="banner"]
 eurohoops.net##.site-header > .lead
 eurointegration.com.ua##.topban_r
+euromaidanpress.com##[data-fuse="header"]
 eurometeo.com##td[width="738"]
 euronews.*##.c-ad-wrapper
 euronews.*##.optidigital-wrapper-div
@@ -52099,8 +52101,8 @@ mydrivers.com##div[style="text-align: center;margin-top: 10px;"]
 mydrivers.com##div[style^="position:fixed;left:50%;bottom:200px;"]
 mydrivers.com#?#.newslist > li:has(> span:contains(广 告))
 mydrivers.com#?#div[class^="news_info"] > ul.newslist > li:has(> span:contains(广告))
-mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(好物))
-mydrivers.com#?#li:has(>.titl+:contains(好物))
+mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(/好\s*物/))
+mydrivers.com#?#li:has(>.titl+:contains(/好\s*物/))
 mydrivers.com,wmzhe.com##a[href*=".jd.com/"]
 myevreview.com###ad_aside_1
 myevreview.com###ad_main_bottom
@@ -61947,7 +61949,6 @@ slang.net##.adTopLB
 slant.co##.SummaryPage-LustreEmbed
 slant.co##._SummaryPageSponsoredOptionView
 slashdot.org###announcement
-slashdot.org###monb-sticky
 slashdot.org###sitewide-top-banner-placeholder
 slashdot.org###slashdot_deals
 slashdot.org###vibe-coding-bar
@@ -61960,6 +61961,7 @@ slashdot.org#?#.fhitem-story.fhitem:has-text(Sponsored Content)
 slashdot.org#?#.fhitem:has(> header > div.ntv-sponsored-disclaimer)
 slashdot.org#?#.grid_24:contains(Featured Content)
 slashdot.org#?#.grid_24:has-text(Featured Content)
+slashdot.org,sourceforge.net###monb-sticky
 slashfilm.com###primis-container
 slashfilm.com##.under-art
 slashfilm.com,healthdigest.com###primis-container
@@ -62839,15 +62841,19 @@ soup.io#@#.showads
 sourceforge.net###banner-sterling
 sourceforge.net###floating-content-wrapper
 sourceforge.net###nels
+sourceforge.net###retool-coding-bar
 sourceforge.net###vibe-coding-bar
 sourceforge.net##.can-truncate
 sourceforge.net##.main-nav-link
+sourceforge.net##.nel-vertical.body
 sourceforge.net##.projects > .trunc-eligible
 sourceforge.net##.projects > li.nel[data-cid]
 sourceforge.net##.sterling
 sourceforge.net##a[data-label^="avast"]
 sourceforge.net##section.m-project-search-results > ul.projects > li.nel:not([itemprop])
 sourceforge.net#%#//scriptlet('remove-node-text', 'script', 'as.sourceforge.net')
+sourceforge.net#?#aside.m-sidebar-widget > .as-header:contains(Featured)
+sourceforge.net#?#aside.m-sidebar-widget > .as-header:has-text(Featured)
 sourceforge.net,freepik.com##div[data-id^="div-gpt-ad-"]
 sourds.net##.jeg_viewport + div[id][class*=" "]
 south-plus.net###header > div:last-child
@@ -78195,6 +78201,7 @@ zzzyk.com###Tinfo
 ||api.cupid.qiyi.com/etx?
 ||api.cupid.qiyi.com/track2
 ||api.dable.io/widgets/
+||api.deepai.org/thrad-ad-proxy
 ||api.discovery.com/v*/streaming/video/$replace=/(\,"ads":\{)"breaks":[\s\S]*?(\}\,"videoView":)/\$1\$2/,domain=hgtv.com|investigationdiscovery.com
 ||api.discovery.com/v*/streaming/video/$replace=/\{"ads":\{"breaks":[\s\S]*?"playURL":/{"playURL":/,domain=diynetwork.com|discovery.com|sciencechannel.com|motortrend.com|tlc.com
 ||api.discovery.com/v*/streaming/video/*&adNetworkId$removeparam=/^ad/,domain=hgtv.com
@@ -81170,6 +81177,7 @@ zzzyk.com###Tinfo
 ||cdn.theatlantic.com/*/promotions/injector.js
 ||cdn.thejournal.ie/media/hpto/$image
 ||cdn.thejournal.ie/media/hpto/*skin*.png
+||cdn.thrad.ai/ptag.min.js
 ||cdn.thri.xxx/web/uploads/b_images/
 ||cdn.tiesraides.lv/app/viblast/*/lib/vast-client.js
 ||cdn.tiesraides.lv/app/viblast/*/videojs.vast.js
