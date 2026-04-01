@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260401010921
-! Last modified: 2026/04/01 01:09:21
-! Blocked Filters: 105874
+! Version: 20260401102218
+! Last modified: 2026/04/01 10:22:18
+! Blocked Filters: 105878
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -1063,6 +1063,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 -client-report.honkaiimpact3.com^
 -client-tracking.goodgamestudios.com/
 -contrib-ads.$~stylesheet
+-datareceiver.aki-game.net^
 -didomi.js
 -events-collector.spot.im^
 -geoIP.js
@@ -26841,10 +26842,7 @@ belloflostsouls.net#?#span.text-secondary:has-text(Advertisement)
 belloflostsouls.net,ginx.tv,paladins.guru,smite.guru,theloadout.com##.vm-placement
 bemyhole.com###live-spots
 bemyhole.com###videoslist > div[style="width: 100%; display: block; margin-top: -17px; padding: 0 2px; font-size: 8px; text-align: right;"]
-bemyhole.com##.dropdown > .upd-source
-bemyhole.com##.headline:has(> a[href="/to/show-more-cams/"])
 bemyhole.com##.main-cams
-bemyhole.com##.tah-desktop-spot
 bemyhole.com#%#//scriptlet('remove-node-text', 'script', 'egoTab')
 bemywife.cc#%#window.canRunAds = !0;
 ben54.jp#@##adModal
@@ -44329,11 +44327,9 @@ invezz.com##.homepage-beneath-hero
 invezz.com##.mx-auto
 inwepo.co##.adsbygoogle
 inwepo.co##div[id^="oa-"]
-inxxx.com##.fh-wrapper:has(> .fh-item > a[href^="/fh-out/"] > div.fh-ad-label)
 inxxx.com##div.headline:has(a[href="/to/show-more-cams/"])
 inxxx.com##div.inxxx-desktop-spot
 inxxx.com#%#//scriptlet('abort-current-inline-script', 'Symbol', 'egoTab')
-inxxx.com,bemyhole.com##.cams-button
 inxxx.com,theyarehuge.com##.desktopspot
 inyourarea.co.uk##.style_advertisementMark_1Jki4
 inyourarea.co.uk##.style_cardWrapper_ycKf8
@@ -57726,6 +57722,7 @@ powerleagueprodigy.com#@#ins.adsbygoogle[data-ad-client]
 powerleagueprodigy.com#@#ins.adsbygoogle[data-ad-slot]
 poweroutage.us##.cta-inline
 powerpyx.com##.code-block-14
+powerpyx.com,vivamaxstream.com,gizmochina.com,droidwin.com,simsvip.com,vice.com,iseekgirls.com,creditshui.com,pornxnow.me,softfully.com,cricfy.net,otakuporn.com,aitoolsfree.org,isekaitube.com,nexusgames.to,coachesdatabase.com,rockstarintel.com,sampledrive.org,vistanet.it,nudemasta.com,mangaread.org,boxingnewsonline.net,lewdgames.to,pokemongohub.net,romslab.com,lokkio.it,sharetheurls.com,opfanpage.com,canonrumors.com,flamecomics.me,repacklab.com,proserialkey.com,fullmatch.info,torrentmac.net,game-repack.site,ispreview.co.uk,nxbrew.net,news.fidelityhouse.eu,poscigi.pl,environmentenergyleader.com,econostrum.info,repack-games.com,cryptopolitan.com,asuratoon.com,chatgbt.one,njbeachcams.com,nokiapoweruser.com,tricksndtips.com,naijaremix.com,rockandrollgarage.com,firstcuriosity.com,bigbrothernetwork.com,flamescans.org,tech-latest.com,nintendoeverything.com,game-2u.com,ps4pkg.com,asurascans.com,anime7.download,netchimp.co.uk,howifx.com,digitbin.com,coffeenerd.blog,nsw2u.*,thegeekpage.com,watchseinfeld.cc,dandadanmanga.org,vgkami.com,tvtonight.com.au,warsawnow.pl,silverspoon.site,asura.gg,getdroidtips.com,crackshere.com,watchasian.ac,qzlyrics.com,marugujarat.in,linuxcapable.com,apkmb.com,techgeekbuzz.com,designcorral.com,otakukan.com,monsterspost.com,policeresults.com,browserhow.com,chromeunboxed.com,journeybytes.com,tutcourse.com,opportunitydesk.info,freecoursesites.net,tektutorialshub.com,fossbytes.com,borncity.com,profitableventure.com,guru99.com,whatisthemeaningofname.com,techpp.com,troypoint.com,bakabuzz.com,conservativebrief.com,xyzcomics.com,jujmanga.com,myhealthgazette.com,cryptodirectories.com,secondlifetranslations.com,thewincentral.com,firmwarefile.com,bicfic.com##body .code-block
 powiatowa.info#?#.jm-title-wrap > .jm-title:contains(/^REKLAMA$/)
 powstream.*,stre4mplay.*,streampiay.*,stemplay.*,steamplay.*,steanplay.*,streamp1ay.*,streanplay.*###uverlay
 powstream.*,stre4mplay.*,streampiay.*,stemplay.*,steamplay.*,steanplay.*,streamp1ay.*,streanplay.*##.ad
@@ -64098,8 +64095,16 @@ sunporno.com##.atv
 sunporno.com##.atvtabling
 sunporno.com##.close-invid
 sunporno.com##.safelink
+sunporno.com##a[href="/to/live-sex/"]
+sunporno.com##a[href="/to/tiktok-porn/"]
+sunporno.com##iframe[src="/api/cams/get-spot-js-full-content/"]
 sunporno.com#%#//scriptlet("abort-on-property-read", "exoNoExternalUI38djdkjDDJsio96")
 sunporno.com#%#//scriptlet('abort-on-property-read', 'BetterPop')
+sunporno.com,bemyhole.com##.dropdown > .upd-source
+sunporno.com,bemyhole.com##.headline:has(> a[href="/to/show-more-cams/"])
+sunporno.com,bemyhole.com##.tah-desktop-spot
+sunporno.com,inxxx.com##.fh-wrapper:has(> .fh-item > a[href^="/fh-out/"] > div.fh-ad-label)
+sunporno.com,inxxx.com,bemyhole.com##.cams-button
 suntimes.com,hellomagazine.com,genyt.com,express.co.uk,apkmirror.com##.OUTBRAIN
 suntory.co.jp#@##page_ad
 suopao.org##.t5[style^="margin-top:8px;"]
@@ -69924,7 +69929,6 @@ viva.pl##.placement
 viva.pl##div[id^="ecomm-placement-"]
 vivahentai4u.net##.widget_mylinkorder
 vivaldi.com#?#.blocks > div.row > div.column:has(> div.color-soft form#signupform)
-vivamaxstream.com,gizmochina.com,droidwin.com,simsvip.com,vice.com,iseekgirls.com,creditshui.com,pornxnow.me,softfully.com,cricfy.net,otakuporn.com,aitoolsfree.org,isekaitube.com,nexusgames.to,coachesdatabase.com,rockstarintel.com,sampledrive.org,vistanet.it,nudemasta.com,mangaread.org,boxingnewsonline.net,lewdgames.to,pokemongohub.net,romslab.com,lokkio.it,sharetheurls.com,opfanpage.com,canonrumors.com,flamecomics.me,repacklab.com,proserialkey.com,fullmatch.info,torrentmac.net,game-repack.site,ispreview.co.uk,nxbrew.net,news.fidelityhouse.eu,poscigi.pl,environmentenergyleader.com,econostrum.info,repack-games.com,cryptopolitan.com,asuratoon.com,chatgbt.one,njbeachcams.com,nokiapoweruser.com,tricksndtips.com,naijaremix.com,rockandrollgarage.com,firstcuriosity.com,bigbrothernetwork.com,flamescans.org,tech-latest.com,nintendoeverything.com,game-2u.com,ps4pkg.com,asurascans.com,anime7.download,netchimp.co.uk,howifx.com,digitbin.com,coffeenerd.blog,nsw2u.*,thegeekpage.com,watchseinfeld.cc,dandadanmanga.org,vgkami.com,tvtonight.com.au,warsawnow.pl,silverspoon.site,asura.gg,getdroidtips.com,crackshere.com,watchasian.ac,qzlyrics.com,marugujarat.in,linuxcapable.com,apkmb.com,techgeekbuzz.com,designcorral.com,otakukan.com,monsterspost.com,policeresults.com,browserhow.com,chromeunboxed.com,journeybytes.com,tutcourse.com,opportunitydesk.info,freecoursesites.net,tektutorialshub.com,fossbytes.com,borncity.com,profitableventure.com,guru99.com,whatisthemeaningofname.com,techpp.com,troypoint.com,bakabuzz.com,conservativebrief.com,xyzcomics.com,jujmanga.com,myhealthgazette.com,cryptodirectories.com,secondlifetranslations.com,thewincentral.com,firmwarefile.com,bicfic.com##body .code-block
 vivatube.*##.clear + .mt15.container[style="margin-top:15px; border-bottom:0;"]
 vivatube.*##.livecams
 vivatube.*##.thrcol > .thr-rcol
