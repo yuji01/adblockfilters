@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260405101703
-! Last modified: 2026/04/05 10:17:03
-! Blocked Filters: 105991
+! Version: 20260405165052
+! Last modified: 2026/04/05 16:50:52
+! Blocked Filters: 105992
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -20574,7 +20574,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||snopes.com^$generichide
 @@||snowfl.com/ads/*.js$~third-party
 @@||snowplow.swm.digital^$domain=7plus.com.au
-@@||snva.jp/javascripts/reco/$script,domain=store.charle.co.jp
+@@||snva.jp/javascripts/reco/$script,domain=abc-mart.net|store.charle.co.jp
 @@||so-magazyn.pl^$generichide
 @@||so-net.ne.jp/access/hikari/minico/ad/images/$~third-party
 @@||sobootlogo.blogspot.com^$generichide
@@ -21064,7 +21064,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||suratkargo.com.tr^$stealth=dpi
 @@||surfguru.com^$generichide
 @@||surirt.com/ad/ads.php?id=$script,domain=surirt.com
-@@||surrit.com^$image,stealth=referrer,domain=missav.live
+@@||surrit.com^$image,xmlhttprequest,stealth=referrer,domain=missav.live|missav.ws
 @@||survey.devographics.com^$stealth=useragent
 @@||survey.g.doubleclick.net^$script,domain=sporcle.com
 @@||surveymyopinion.researchnow.com^|
@@ -104958,6 +104958,7 @@ zzzyk.com###Tinfo
 ||xp.apple.com/report/
 ||xp.audience.io/sdk.js$third-party
 ||xp85.com/common/js/allpage.js
+||xpaja.net/views/images/ads/
 ||xpcha.com/js/notice.js
 ||xpee.com/application//assets/scripts/sgunder.js
 ||xpeeps.com^$popup,third-party
