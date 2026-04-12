@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260412102114
-! Last modified: 2026/04/12 10:21:14
-! Blocked Filters: 106156
+! Version: 20260412165625
+! Last modified: 2026/04/12 16:56:25
+! Blocked Filters: 106158
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -5003,7 +5003,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /js/ad.js$domain=69shuba.com
 /js/adInitializer.js$domain=ddwloclawek.pl|ddtorun.pl
 /js/ad_common.js$script
-/js/adblockdetect.js$script
 /js/admiral-
 /js/ads/*0.js
 /js/ads/*2.js
@@ -30992,6 +30991,7 @@ comicbook.com##.adhesion-block
 comicbook.com##.embedVideoContainer
 comicbook.com##.lngtd-dynamic-inarticle
 comicbook.com##.lngtd-dynamic-leaderboard
+comicbook.com##.lngtd-dynamic-leaderboard-index
 comicbook.com##.lngtd-dynamic-rightrail
 comicbook.com##.modernInContent
 comicbook.com##.oas
@@ -76049,6 +76049,8 @@ zzzyk.com###Tinfo
 ||5dmail.net/image/ORF_1000.gif
 ||5dmail.net/image/ad_
 ||5dmail.net/js/
+||5dxs.net/themes/jieqi/wap/js/fixed.
+||5dxs.net/themes/jieqi/wap/js/test.
 ||5etv.com^$third-party
 ||5fz.cc/t/aimg/tao
 ||5icool.org/uploadfile/poster/
