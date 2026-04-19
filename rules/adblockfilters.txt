@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260419102548
-! Last modified: 2026/04/19 10:25:48
-! Blocked Filters: 106314
+! Version: 20260419170316
+! Last modified: 2026/04/19 17:03:16
+! Blocked Filters: 106312
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -1684,7 +1684,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 .skimlinks.js
 .smartrmail.co/o/$image
 .smtp.net/o/$image
-.so0*koaq.com/$script,xmlhttprequest,third-party
 .southwest.com/r/$image
 .sp1-brevo.net/mk/op/$image
 .space/?tid=
@@ -36351,6 +36350,7 @@ farminguk.com##.advert-word
 farminguk.com##.news-advert-button-click
 farminguk.com#$#.advert-word { position: absolute !important; left: -3000px !important; }
 farooqkperogi.com###leaderboard-content
+faroutmagazine.co.uk##.GRVPrimisVideo
 faroutmagazine.co.uk##.amp-next-page-separator
 faroutmagazine.co.uk##.widget_grv_mpu_widget
 faroutmagazine.co.uk#$#.header { margin-top: 0px !important; }
@@ -48134,6 +48134,7 @@ lightnovelpub.fan,lightnovelpub.vip,lightnovelpub.com,lightnovelspot.com,webnove
 lightnovelpub.fan,lightnovelpub.vip,lightnovelpub.com,lightnovelspot.com,webnovelpub.com##.comment-list > div[class]:has(> .adsbygoogle)
 lightnovelpub.fan,lightnovelpub.vip,lightnovelpub.com,lightnovelspot.com,webnovelpub.com##.container > div[class]:has(> *:is([data-stpd], [id^="gpt_slot_"]))
 lightnovelpub.fan,lightnovelpub.vip,lightnovelpub.com,lightnovelspot.com,webnovelpub.com##.container > div[class]:has(> .adsbygoogle)
+lightnovelpub.org##[href*="heave.gg"]
 lightnovelpub.vip,lightnovelspot.com,webnovelpub.com,lightnovelpub.com#$#body .adsbox[style*="height"] { display: block !important; }
 lightnovelpub.vip,lightnovelspot.com,webnovelpub.com,lightnovelpub.com#$#body .adsbygoogle[style*="height"] { display: block !important; }
 lightnovelpub.vip,lightnovelspot.com,webnovelpub.com,lightnovelpub.com#%#//scriptlet("prevent-setTimeout", "/abchecker|AdBlock/")
@@ -84025,7 +84026,6 @@ zzzyk.com###Tinfo
 ||dianping.com/hippo.gif?
 ||dianping.com/mkt/ajax/getNewItems
 ||dianping.com/wedding/pro/jsonppage
-||dianxin.com^$third-party
 ||dianyingim.com/statics/recommend/
 ||diaoyu123.com/cpro/show.js
 ||dict.youdao.com/vip/privilege/show/V*?bannerType=fanyiTop$domain=fanyi.youdao.com
@@ -91577,7 +91577,6 @@ zzzyk.com###Tinfo
 ||linkstorm.net^$third-party
 ||linksynergy.com^$third-party
 ||linktr.ee/events
-||linkvans.com^$third-party
 ||linkwan.com/gb/broadmeter/speed/cp.js
 ||linkwan.com/gb/javascript/a
 ||linkwan.com/gb/javascript/b4.js
@@ -100043,7 +100042,6 @@ zzzyk.com###Tinfo
 ||sotchoum.com^$popup
 ||sottomarina.net/image/banner/
 ||soua.com^$third-party
-||souche.com^*.gif
 ||soufun.com/click/
 ||soufun.com/stats/
 ||soufunimg.com/common_m/m_public/js/wa
