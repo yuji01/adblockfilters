@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260425101403
-! Last modified: 2026/04/25 10:14:03
-! Blocked Filters: 106393
+! Version: 20260425170040
+! Last modified: 2026/04/25 17:00:40
+! Blocked Filters: 106410
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -23511,6 +23511,7 @@ ahaan.co.uk##.sticky-side-ad
 ahaan.co.uk#?#.MuiBox-root:has(> div[class*="-only"] > .adunitContainer)
 ahaan.co.uk,emailnator.com,myip.is,scrolller.com,whereto.stream##[href^="https://go.nordvpn.net/"]
 ahajournals.org##.header--advertisment__container
+ahajournals.org##.pb-las
 ahajournals.org,tandfonline.com##.pb-ad
 ahaonline.cz##.ads
 ahaonline.cz##.boxReklama
@@ -35061,6 +35062,7 @@ embed.watchasian.to#%#//scriptlet("prevent-window-open")
 embed.wcostream.com#$##announcement { display: block !important; }
 embed.wcostream.com#$#.announcement-backdrop { display: block !important; }
 embed.wcostream.com#%#(()=>{if(!location.href.includes("://embed.wcostream.com/inc/embed/index.php?file="))return;const e=`/inc/embed/video-js.php${location.search}`;location.href=e})();
+embed.wcostream.com#%#//scriptlet('abort-on-property-read', 'AdblockShield')
 embed.wcostream.com#%#//scriptlet('prevent-fetch', 'pubadx-ad.js')
 embed.wcostream.com#%#//scriptlet('trusted-create-element', 'head', 'script', '', '(()=>{if(!location.href.includes("://embed.wcostream.com/inc/embed/index.php?file="))return;const e=`/inc/embed/video-js.php${location.search}`;location.href=e})();')
 embed.wcostream.com#@#.ad-unit
@@ -65030,6 +65032,8 @@ tcheats.com#%#//scriptlet('abort-current-inline-script', '$', '/checkAds|AdBlock
 tcheats.com#@#ins.adsbygoogle[data-ad-slot]
 tchgdns.de##.footer-pub
 tchgdns.de##.header-pub
+tctmd.com##.advertisement-aside
+tctmd.com##.advertisement-headerz
 tdbeta.cn##.a_mu,.adsbygoogle,#sitefocus
 tdpri.com##iframe[src^="https://www.tdpri.com/render-ad.php"]
 tdpri.com#?#.p-body-sidebar > .block:not([data-widget-id]):has(> .block-container > .block-body > .cb_prod_list)
@@ -71666,6 +71670,11 @@ wikisport.cc#%#//scriptlet('prevent-addEventListener', 'click', 'window.open')
 wikisport.cc#%#//scriptlet('prevent-innerHTML', 'div', '_mtj')
 wikisport.cc#%#//scriptlet('prevent-window-open')
 wikitechy.com##.goto-top + div[id][class*=" "]
+wikiwand.com##.ad-between-sections
+wikiwand.com##.ad-header
+wikiwand.com##.ad-mid-section
+wikiwand.com##.ad-side
+wikiwand.com##.adn-footer
 wikiwand.com##.article_footerStickyAd__wvdui
 wikiwand.com##.article_sectionAd__rMyBc
 wikiwand.com##.content_headerAd__USjzd
@@ -78350,6 +78359,7 @@ zzzyk.com###Tinfo
 ||amazonpay.com/customerInsight?
 ||ambercrow.com^$third-party
 ||ambiliarcarwin.com^$popup
+||amboss.com/analytics/
 ||ambuizeler.com^$popup
 ||amcdn.vn^$third-party
 ||amdc.m.taobao.com/amdc^$app=com.huawei.hwvplayer.youku
@@ -79894,6 +79904,7 @@ zzzyk.com###Tinfo
 ||bbuni.com^$third-party
 ||bbvms.com/zone/js/zonestats.js
 ||bc.geocities.
+||bc.nejm.org/script.js
 ||bc.vc/js/bcvc_in.js
 ||bc.vc/js/link-converter.js
 ||bc0a.com/api/
@@ -81646,6 +81657,7 @@ zzzyk.com###Tinfo
 ||cdn.rawgit.com/hasrul11/mass/a68bd824/script.min.js
 ||cdn.rawgit.com/perampokgoogle/AntiAdblock/master/AdblockRampok.js
 ||cdn.rekkerd.org/img/a/rkkrdprm/
+||cdn.reverso.net/rumjs/
 ||cdn.rrmj.plus/ad_4k.mp4$media,redirect=noopmp3-0.1s,domain=m.yichengwlkj.com
 ||cdn.rrmj.plus/c-next/mapp/*/layout-$script,replace=/firstAdMaxFreeTimes:\d+/firstAdMaxFreeTimes:30000/,domain=m.yichengwlkj.com
 ||cdn.rrmj.plus/c-next/mapp/*/layout-$script,replace=/secondsAdMaxTimes:\d+/secondsAdMaxTimes:150000/,domain=m.yichengwlkj.com
@@ -83719,6 +83731,8 @@ zzzyk.com###Tinfo
 ||data.hicloud.com^$third-party
 ||data.idnes.cz/nocache/DPP/dacan/
 ||data.indianexpress.com/iframes/cfo-awards/cfoawards.html
+||data.pendo.io/data/errorlog?
+||data.pendo.io/data/guide.gif/
 ||data.video.iqiyi.com/videos/other/*.mp4?*random=ad$redirect=noopmp4-1s
 ||data.video.ptqy.gitv.tv/videos/other/$redirect=noopmp4-1s
 ||data.video.qiyi.com/videos/other
@@ -93994,6 +94008,7 @@ zzzyk.com###Tinfo
 ||ncaudienceexchange.com^$third-party
 ||ncdn22.xyz/cdn-cgi/trace
 ||ncom.dk^$third-party
+||ncregister.com/_swp_analytics?
 ||nczsks.com/SCWB/WebResource.axd
 ||ndcomemunica.com^$popup
 ||ndg.io^$third-party
@@ -94843,6 +94858,7 @@ zzzyk.com###Tinfo
 ||onad.eu^$popup
 ||onatallcolumn.com^$popup
 ||onaudience.com^$third-party
+||onboarding-ui.frontiersin.org/api/onboarding-ui/v1/session/logged
 ||oncesets.com^$popup
 ||onclasrv.com^$popup
 ||onclckpop.com^$document
@@ -95636,6 +95652,7 @@ zzzyk.com###Tinfo
 ||pasxfixs.com^$popup
 ||patakaendymal.top^$all
 ||path-2-happiness.com/*/select_adv
+||patient.info/a31h/
 ||patient.info/scripts/doda.js
 ||patreon.com/api/tracking
 ||patronimproveyourselves.com^$popup
@@ -99778,7 +99795,6 @@ zzzyk.com###Tinfo
 ||slickdeals.net/ajax/stats/
 ||slidedeck.com^$image,third-party
 ||slideff.com^$popup
-||slideshare.net/frontend_tracking/
 ||slikslik.com^$popup
 ||slikslik.com^$third-party
 ||slimspots.com^$popup
@@ -104226,6 +104242,7 @@ zzzyk.com###Tinfo
 ||wccftech.com/0LDbU6Cv0mZ.js
 ||wccftech.com/cnt7vfDVvWa3.js
 ||wcfbc.net^$third-party
+||wcostream.com/inc/js/adblock-detector-hardened.js
 ||wcostream.net/premiumad
 ||wct.click^$third-party
 ||wct.link^$popup
