@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260425170040
-! Last modified: 2026/04/25 17:00:40
-! Blocked Filters: 106410
+! Version: 20260426005105
+! Last modified: 2026/04/26 00:51:05
+! Blocked Filters: 106416
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -20785,6 +20785,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||stackpathcdn.com/wp-content/plugins/*/adblock-detector/advertisement.js$domain=phoneswiki.com
 @@||stackpathcdn.com^$stealth=referrer,domain=tympanus.net
 @@||stacksnippets.net^$jsinject,elemhide,extension
+@@||stacksocial.com^$stealth=flash
 @@||stacksocial.com^$stealth=java
 @@||stacksocial.com^$stealth=referrer
 @@||stadionowioprawcy.net^$generichide
@@ -24541,6 +24542,9 @@ animefrenzy.net,royalcams.com,adultcams.me,adultchat2100.com,alphafreecams.com,b
 animeguro.com###bt-ads
 animehay.*##body > div[style^="position: fixed; bottom: 0px; z-index:"]
 animehay.*#%#//scriptlet('set-constant', 'adsCatFish', 'noopFunc')
+animehay01.site##div[style^="position: absolute; bottom: 100%; right: 0px;"][style*="cursor: pointer;"]
+animehay01.site##img[src^="/ad_banner/"]
+animehay01.site#%#//scriptlet('prevent-window-open')
 animeheaven.pro,animepahe.*#%#//scriptlet("abort-on-property-write", "__C")
 animehub.ac###main-content > center
 animehub.ac##.sb-subs
@@ -77175,6 +77179,7 @@ zzzyk.com###Tinfo
 ||adkmbc.com^$popup
 ||adknowledge.com^$third-party
 ||adkonekt.com^$third-party
+||adkora.com^$third-party
 ||adkova.com^$third-party
 ||adku.co^$third-party
 ||adku.com^$third-party
@@ -78508,6 +78513,7 @@ zzzyk.com###Tinfo
 ||animeamigos.org/iframe/
 ||animeflv.*/api/pop.php
 ||animefrenzy.net/static/jquery.js?v=
+||animehay01.site/ad_banner/
 ||animehub.ac/api/pop.php
 ||animeinweb.com/api/proxy/data/ads/
 ||animeland.tv/zenny/
