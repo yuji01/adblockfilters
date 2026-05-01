@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260501105116
-! Last modified: 2026/05/01 10:51:16
-! Blocked Filters: 106514
+! Version: 20260501174450
+! Last modified: 2026/05/01 17:44:50
+! Blocked Filters: 106517
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -45902,6 +45902,7 @@ jiligame.com##img[onerror="zhurl($(this))"]
 jin.baidu.com##a:last-child
 jin.baidu.com##div.loan-recommend.grid-mt
 jin10.com##.activity-side
+jin10.com##.desktop-tip
 jin10.com##.jin-declaration[class*="_b"]
 jin10.com##.jin-declaration[class*="_h"]
 jin10.com##.jin-jgg
@@ -66421,6 +66422,7 @@ thenewspaper.gr##div[id*="thene-"]
 thenewstack.io##.tns-sponsor-note
 thenewstack.io##.tns-sponsors-rss
 thenextweb.com##.ad-unit--center
+thenextweb.com##.sponsored_legal
 thenextweb.com##.tnw-ad
 theodysseyonline.com##.distroscale_p2
 theodysseyonline.com##.distroscale_side
@@ -85655,6 +85657,7 @@ zzzyk.com###Tinfo
 ||ezjav.com/p.js
 ||ezmob.com^$popup
 ||ezoic.net/ezqlog?
+||ezoicanalytics.com/analytics.js
 ||ezojs.com/beardeddragon/
 ||ezojs.com/ezoic/
 ||ezojs.com/ezoic/sa.min.js
