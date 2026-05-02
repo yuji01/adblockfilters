@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260502102723
-! Last modified: 2026/05/02 10:27:23
-! Blocked Filters: 106532
+! Version: 20260502171521
+! Last modified: 2026/05/02 17:15:21
+! Blocked Filters: 106538
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -36530,6 +36530,10 @@ fcw45.com##div[id^="layui-layer"]
 fczym.xyz###fl
 fczym.xyz##.v
 fdc.com.cn##.yifangbanner
+fdiintelligence.com##.mid-desktop
+fdiintelligence.com##.o-ads
+fdiintelligence.com#?#.undefined:contains(Advertisement)
+fdiintelligence.com#?#.undefined:has-text(Advertisement)
 fdocuments.in##a[href="https://cupdf.com/"] > img
 fdrive.cz##.bannerBillboard
 fdrive.cz##.bannerMB
@@ -39734,6 +39738,7 @@ giornaledibrescia.it#%#//scriptlet('prevent-fetch', 'www3.doubleclick.net')
 giphy.com##.device-desktop
 giphy.com##.guIlWP
 giphy.com##.z-stickyAd
+giphy.com##[class*="w-adCarousel"]
 giphy.com##div[class^="ads_"]
 giphy.com##div[class^="ads_top_leaderboard_container"]
 giphy.com#$#.dGQRHq { top: 0 !important; }
@@ -79082,6 +79087,7 @@ zzzyk.com###Tinfo
 ||apps.bdimg.com/libs/jquery/*/jquery.min.js$domain=vip.hnywkj.cn
 ||apps.boo-studio.com/*/banner/
 ||apps.boo-studio.com/promotion/
+||apps.fourthwall.app^$third-party
 ||apps.healthgrades.com/cnn/home/assets/embed.js$domain=cnn.com
 ||apps.ihlasdigitalassets.com/stats
 ||apps.nhk.jp/assets/dtm/
