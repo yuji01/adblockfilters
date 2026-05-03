@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260503104451
-! Last modified: 2026/05/03 10:44:51
-! Blocked Filters: 106550
+! Version: 20260503173327
+! Last modified: 2026/05/03 17:33:27
+! Blocked Filters: 106558
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -5852,6 +5852,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /ph-tracking-1.2.js
 /phantomPopunder.js|
 /phenomtrack.min.js
+/phoenix-share/js/code.123.bg.
 /photoad*
 /php-stats.js
 /php-stats.php?
@@ -42123,9 +42124,11 @@ hindustantimes.com###section_news
 hindustantimes.com##.advInBtweenNewsCard
 hindustantimes.com##.advStoryDetailInline
 hindustantimes.com##.affilaite-widget
+hindustantimes.com##.bottomFixAd
 hindustantimes.com##.cubeBox
 hindustantimes.com##.desktopAd
 hindustantimes.com##.epaper-ad
+hindustantimes.com##.h325
 hindustantimes.com##.headBanner
 hindustantimes.com##.ht-ad-holder-right:empty
 hindustantimes.com##.ht-dfp-ad
@@ -42133,6 +42136,7 @@ hindustantimes.com##.ht_outbrain
 hindustantimes.com##.ht_taboola
 hindustantimes.com##.inArticleAdCarouselWrapper
 hindustantimes.com##.m_headBanner
+hindustantimes.com##.middleTaboola
 hindustantimes.com##.moreFrom
 hindustantimes.com##.noAdLabel
 hindustantimes.com##.oyoAd
@@ -44059,6 +44063,7 @@ indianexpress.com##.amazon-widget
 indianexpress.com##.desktop-full-ad
 indianexpress.com##.gamingcubeiframe
 indianexpress.com##.h-text-widget
+indianexpress.com##.ie-ads-block-frontend
 indianexpress.com##.ie-adsbox
 indianexpress.com##.ie-adtext
 indianexpress.com##.ie-banner-wrapper
@@ -66769,6 +66774,8 @@ thetimes.com##.responsive__InlineAdWrapper-sc-4v1r4q-14
 thetimes.com##.styles__PromotedContentContainer-sc-1ul3b7n-3
 thetimes.com##article[id="article-main"] > div:has(#ad-header)
 thetimes.com##div[class^="styles__PromotedContentContainer"]
+thetimes.com.au##[href="https://workspace.google.com/lp/solutions/ai/"]
+thetimes.com.au##[href="https://www.oracle.com/anz/database/"]
 thetimestribune.com###floorboard_block
 thetoc.gr##.opap-section
 thetoyinsider.com##.apb-adblock
@@ -71103,6 +71110,7 @@ watchpornx.com#?#aside > div.widget_execphp:has(> div[class] script[type])
 watchseries.*##.bottom-bnr
 watchsomuch.to###VPN
 watchsomuch.to##.getVIPAds
+watchsports.to##.sp-promo-card
 watchtv24.com#%#//scriptlet('prevent-element-src-loading', 'script', 'imasdk.googleapis.com/js/sdkloader/ima3.js')
 watchtv24.com#%#//scriptlet('set-constant', 'Brid.A9.prototype.backfillAdUnits', 'emptyArr')
 waterfordwhispersnews.com##.wwn-ad-unit
