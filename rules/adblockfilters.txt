@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260509172822
-! Last modified: 2026/05/09 17:28:22
-! Blocked Filters: 106670
+! Version: 20260510010421
+! Last modified: 2026/05/10 01:04:21
+! Blocked Filters: 106677
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -20388,6 +20388,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||seraphimonolith.space/content/$stealth=referrer
 @@||serasaexperian.com.br/dist/scripts/fingerprint2.js$~third-party
 @@||series-streaminghd.com^$generichide
+@@||seriezloaded.com.ng^$generichide
 @@||serve.adclixx.net/promoload
 @@||serve.adtrackers.net/promoload
 @@||serve.bannertrack.net/promoload
@@ -46424,6 +46425,7 @@ justetf.com###brokerAd
 justetf.com##.borker-ad
 justetf.com##.etf-ad-row
 justetf.com##.m-sep-l:has(#partnerNewsBox)
+justetf.com##.publift-ad-container
 justetf.com##.wAd
 justetf.com##div[id^="shadow-teaser-"]:has(div[class="disclaimer mb-1"])
 justetf.com##tr[onclick^="gaW"]
@@ -53289,6 +53291,7 @@ neowin.net#?#.ipsColumns_collapsePhone.classes:contains(Our Sponsors)
 neowin.net#?#.ipsColumns_collapsePhone.classes:has-text(Our Sponsors)
 neowin.net#@##ipsLayout_contentWrapper > .ipsResponsive_hidePhone
 nep.detaly.co.il##.nep_reck
+nepalicalendar.rat32.com###adsnew
 nepallivetoday.com##.adsimage
 nepallivetoday.com,wjr.com##img[height="100"]
 nepalpress.com##.gam-ad-position-wrap
@@ -59728,9 +59731,12 @@ realestate.co.nz##.modal-ad-wrap
 realestate.co.nz##.topbar-ad-parent
 realestate.co.nz#$#html.async-hide { opacity: 1!important; }
 realestate.com.au###headerLeaderBoardSlot
+realestate.com.au##.header-ad-container
 realestate.com.au##.header-leaderboard-portal
 realestate.com.au##.lead-gen__action-link
 realestate.com.au##.media-viewer__sidebar
+realestate.com.au##.styles__Medrec1Container-sc-tc1w4x-0
+realestate.com.au##.styles__Medrec2Container-sc-tc1w4x-1
 realestate.com.au##div[class^="FooterAd"]
 realestate.com.au##div[class^="PostLayout__AsideWrapper-"] > div[class^="styles__Medrec"]
 realestatebusiness.com.au###leaderboard_wrapper
@@ -61511,6 +61517,7 @@ serieshd24.com,newseries24.com##div[class^="banner-mid-"]
 serieshd24.com,newseries24.com,dooseries2uhd.com,moviedee24.com,xn--72czp7a9bc4b9c4e6b.video,nung2hdd.com,movieshdfree.com,newseries-hd.com,movie22hd.com,moviehdfree.net##.ad-float
 serieslatinoamerica.tv$$script[wildcard="*track*atob*ShadowRoot*"][min-length="5000"][max-length="10000"]
 serieslatinoamerica.tv,trshow.info,ruplayers.com##pp
+seriezloaded.com.ng#%#//scriptlet('prevent-setTimeout', 'offsetHeight === 0')
 seriouseats.com##.entry-body > .product-widget
 seroundtable.com###ninja_box
 seroundtable.com##.bottombox > div.squarebox > a[target="_blank"] > img
