@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260513021028
-! Last modified: 2026/05/13 02:10:28
-! Blocked Filters: 106752
+! Version: 20260513105504
+! Last modified: 2026/05/13 10:55:04
+! Blocked Filters: 106755
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -1032,6 +1032,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 -720x90.
 -728-90-
 -728-90.
+-728-x-90-
 -728.90.
 -728x90-
 -728x90.
@@ -43411,6 +43412,7 @@ ifa.com.au##div[class^="b-gutterads__wrapper"]
 ifanr.com##.popup-app-download
 ifanr.com##div.ifanr-text-content,div.banner_post_bottom,.c-jiong__image
 ifate.com##.articleleftfloater
+ifate.com,ycp.synk-casualgames.com#@#.adsbygoogle-noablate
 ifbbpro.com#$#body.td-background-link { background-image: none!important; cursor: auto !important; }
 ifbbpro.com#%#//scriptlet('set-constant', 'td_ad_background_click_link', 'undefined')
 ifeng.com###CA_left
@@ -72225,6 +72227,8 @@ woolworths.com.au##.product-grid-v2--tile:has(.sponsored-text)
 woolworths.com.au##.search-banner-top-mbox
 woolworths.com.au##div[class^="aem-video-ad-unit_component_video-container_"]
 woolworths.com.au##shared-mbox:has(> div[data-mbox^="acs.w-s.web."])
+woolworths.com.au#?#div[class^="recipe-card_component_recipe-card-container-"]:contains(Sponsored)
+woolworths.com.au#?#div[class^="recipe-card_component_recipe-card-container-"]:has-text(Sponsored)
 wooordhunt.ru#?##content > div[style*="min-height"]:not([id]):has(> .adsbygoogle)
 woopread.com##.dcads
 woorkup.com##.kinsta
@@ -74080,7 +74084,6 @@ yazhouse8.com##.banners
 yazhouse8.com##.mini-over-top
 yb983.com##div[id^="pop"]
 ychecker.com##div[style="width:300px; height:250px;"]
-ycp.synk-casualgames.com#@#.adsbygoogle-noablate
 ycwb.com##div.t2_720.fl,div.b2_220.fr,DIV.layout.clearfix > SPAN[style],div.adv-banner,div.adv-txt.clearfix
 yczbb.com##div#noad
 yd.baidu.com##.ui-distribution-bar
