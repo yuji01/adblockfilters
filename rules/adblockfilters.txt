@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260517105333
-! Last modified: 2026/05/17 10:53:33
-! Blocked Filters: 106881
+! Version: 20260517175650
+! Last modified: 2026/05/17 17:56:50
+! Blocked Filters: 106885
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -25117,7 +25117,7 @@ appleware.dev#%#//scriptlet('prevent-setTimeout', '.offsetHeight')
 appleworld.pl##a[href*="/aff_c?offer_id="] > img
 appleworld.pl##a[href^="https://clk.tradedoubler.com/click?"]
 appleworld.today###block-26
-appleworld.today,athleticsillustrated.com,betakit.com,businessaccountingbasics.co.uk,circuitbasics.com,closerweekly.com,coincodecap.com,cozyberries.com,dbknews.com,deshdoaba.com,developer-tech.com,electricbikereport.com,foreverconscious.com,friendsjournal.org,glitched.online,globalgovernancenews.com,intouchweekly.com,jharkhandmirror.net,kashmirreader.com,kkfm.com,levittownnow.com,lifeandstylemag.com,manhuatop.org,marqueesportsnetwork.com,mensjournal.com,nikonrumors.com,ognsc.com,palipost.com,patriotfetch.com,pctechmag.com,potatonewstoday.com,prajwaldesai.com,pstribune.com,raspians.com,robinhoodnews.com,rok.guide,rsbnetwork.com,salesforcegeek.in,showbiz411.com,spokesman-recorder.com,sportsspectrum.com,stacyknows.com,supertotobet90.com,teksyndicate.com,thecatholictravelguide.com,thedefensepost.com,theoverclocker.com,theyucatantimes.com,tronweekly.com,ubuntu101.co.za,wakingtimes.com,washingtonmonthly.com,webscrypto.com,wgow.com,wgowam.com,wlevradio.com##.widget_media_image
+appleworld.today,athleticsillustrated.com,betakit.com,businessaccountingbasics.co.uk,circuitbasics.com,closerweekly.com,coincodecap.com,cozyberries.com,dbknews.com,deshdoaba.com,developer-tech.com,electricbikereport.com,foreverconscious.com,friendsjournal.org,glitched.online,globalgovernancenews.com,intouchweekly.com,jharkhandmirror.net,kashmirreader.com,kkfm.com,levittownnow.com,lifeandstylemag.com,manhuatop.org,marqueesportsnetwork.com,mensjournal.com,nikonrumors.com,ognsc.com,palipost.com,patriotfetch.com,pctechmag.com,postwrestling.com,potatonewstoday.com,prajwaldesai.com,pstribune.com,raspians.com,robinhoodnews.com,rok.guide,rsbnetwork.com,salesforcegeek.in,showbiz411.com,spokesman-recorder.com,sportsspectrum.com,stacyknows.com,supertotobet90.com,teksyndicate.com,thecatholictravelguide.com,thedefensepost.com,theoverclocker.com,theyucatantimes.com,tronweekly.com,ubuntu101.co.za,wakingtimes.com,washingtonmonthly.com,webscrypto.com,wgow.com,wgowam.com,wlevradio.com##.widget_media_image
 applnn.cc#%#//scriptlet('prevent-eval-if', 'encodeURIComponent')
 applnn.cc#%#//scriptlet('trusted-set-cookie', 'gg_info', '$now$')
 apply.gokiwi.in#%#//scriptlet('prevent-element-src-loading', 'script', 'adsbygoogle')
@@ -60321,6 +60321,8 @@ rim-world.com#%#(function(){var b=window.setTimeout;window.setTimeout=function(a
 rimworldbase.com#%#//scriptlet('prevent-setTimeout', 'hasAdblock()')
 rimworldbase.com#%#//scriptlet('prevent-xhr', 'pagead2.googlesyndication.com')
 rimworldbase.com#@#.ad-box:not(#ad-banner):not(:empty)
+ringsidenews.com###rsn-ap-sticky-bar
+ringsidenews.com##.rsn-laai-ad
 ringtv.com##.widget_ad_dropper_widget
 riotpixels.com###wasdslider1
 riotpixels.com##.br-new
@@ -61633,6 +61635,7 @@ serverstoplist.com##.mobile_ad
 serverstoplist.com##.pcOnly
 serververify.com##div[hx-get="https://serververify.com/advertisement/load"]
 servicemassar.ma###myAdOverlay
+sescoops.com##.incontent-ad-container
 seselah.com###video-ads
 seshowclub.com##.topAdv,tbody#cate_thread,.ad_thread
 seslimakale.com#@#.post-ad
@@ -72675,6 +72678,7 @@ wwads.cn
 wwd.com##.wwd-subscribe-now-banner-ad-container
 wwe.com##.l-hybrid-col-frame_rail-wrap
 wweek.com##.pb-f-phanzu-phanzu-ad-code
+wwfoldschool.com##.wwfol-entity-placement
 wwitv.com#?##page-wrapper > center:has(> .adsbygoogle)
 wwitv.com#?#.panel > .panel-body:has(> center:contains(Sponsored links))
 wwitv.com#?#.panel.top > .panel-body:has(> .adsbygoogle)
