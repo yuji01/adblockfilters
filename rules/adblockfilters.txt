@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260517010827
-! Last modified: 2026/05/17 01:08:27
-! Blocked Filters: 106880
+! Version: 20260517105333
+! Last modified: 2026/05/17 10:53:33
+! Blocked Filters: 106881
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -18173,6 +18173,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=absa.co.za|att.com|pnc.com|vodafone.it
 @@||omutulove.blog.fc2.com^$generichide
 @@||omutulove.seesaa.net^$generichide
+@@||on.orf.at^$stealth=dpi
 @@||onceagain.mooo.com/prebid.js$domain=bigbtc.win
 @@||ondemand.sas.com^$subdocument
 @@||onedrive.live.com^$generichide
@@ -25629,9 +25630,9 @@ audiobookbay.is##[src="/images/dire.gif"]
 audiobookbay.is##a[href^="/dl-14-days-trial"]
 audiobookbay.is##div[style*="margin-bottom:"].ski
 audiobookbay.lu##.sky
+audiobookbay.lu##a[href^="/didl1-now"]
 audiobookbay.lu##a[href^="/dl-14-days-trial"]
 audiobookbay.lu##tr:has(> td:last-child > a:only-child > img[src^="/images/d"]:only-child)
-audiobookbay.lu##tr:has(> td:last-child > span > a[href*="?"])
 audiobyray.com##.cat-carousel
 audiocircuit.dk,topmanhuas.org,kinotehnik.net,gamekazi.com,donghuaworld.com,nxbrew.net,gaypornhot.com,ivfauthority.com,pinoyalbums.com,domhouse.it,watchfacebook.com,4allprograms.me,clapway.com#$#body { overflow: auto !important; }
 audiocircuit.dk,topmanhuas.org,kinotehnik.net,gamekazi.com,donghuaworld.com,nxbrew.net,gaypornhot.com,ivfauthority.com,pinoyalbums.com,domhouse.it,watchfacebook.com,4allprograms.me,clapway.com#$#div[id$="-blanket"] { display: none !important; }
