@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260519020827
-! Last modified: 2026/05/19 02:08:27
-! Blocked Filters: 106919
+! Version: 20260519110212
+! Last modified: 2026/05/19 11:02:12
+! Blocked Filters: 106921
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -28735,6 +28735,7 @@ businessinsider.*##.ad_spacenone
 businessinsider.*##.article-ad-container
 businessinsider.com##.ad-title
 businessinsider.com##.commerce-coupons-module
+businessinsider.com##.dynamic-module
 businessinsider.com##.in-post-sticky
 businessinsider.com##.l-ad
 businessinsider.com##.rail-container:has(> .ad-label)
@@ -79085,6 +79086,7 @@ zzzyk.com###Tinfo
 ||api.avrebo.net/api/v*/advert/
 ||api.axept.io/v1/analytics/evts
 ||api.baomoi.com^$image
+||api.begenuin.com/goservices/data/
 ||api.beleggersbelangen.nl//api/statistics/
 ||api.bilibili.com/x/*/res/locs?$~script
 ||api.bilibili.com/x/ad/
