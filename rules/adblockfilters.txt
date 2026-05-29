@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260529193700
-! Last modified: 2026/05/29 19:37:00
-! Blocked Filters: 107126
+! Version: 20260530024146
+! Last modified: 2026/05/30 02:41:46
+! Blocked Filters: 107132
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -58533,6 +58533,9 @@ primeradivision.pl,fcbarca.com##.banner
 primesrc.me#%#//scriptlet('remove-attr', 'href', 'a.splash')
 primetechieforum.com#%#//scriptlet('prevent-element-src-loading', 'img', 'doubleclick.net')
 primetimer.com###primis-ad-container
+primetimer.com##.optidigital-wrapper-div
+primetimer.com#$#body { overflow: auto !important; }
+primetimer.com#$#div[id^="adwall-"] { display: none !important; }
 primevid.click##a[href^="https://fairscrew.com/"]
 primevid.click##div[style="position: fixed; top: 0px; left: 0px; width: 100vw; height: 100vh; z-index: 3; background-color: transparent;"]
 primevideo.com#%#//scriptlet('json-prune', 'cuepointPlaylist vodPlaybackUrls.result.playbackUrls.cuepoints')
@@ -61248,6 +61251,7 @@ satellites.pro##.placea
 satisfactory-calculator.com###DynamicInStream-Slot-1
 satisfactory-calculator.com###DynamicWidth-Slot-1
 satisfactory-calculator.com###DynamicWidth-Slot-2
+satkurier.pl###billboard1
 satkurier.pl##body div[id^="banner_"]
 satkurier.pl##body div[id^="idmnet_horizontal"]
 satkurier.pl##div[id^="blok_"][id$="_box_300x250"]
@@ -62755,6 +62759,7 @@ skyradar.pl##div[id^="crosscol-"] > .widget:has(> .widget-content > center > .ad
 skyscanner.*##[data-testid="inline-ad-panel-desktop-layout"]:has([data-testid="adInfoBtn"])
 skyscanner.*##div[class*="InlineAd_card-wrapper"]
 skyscanner.*##div[class^="InlineAd_container_"]
+skyscanner.*##div[data-backpack-ds-component]:has(#inline-ad-button)
 skyscanner.*,tianxun.com##[class^="FlightsResults"] > div:has([class^="Sponsored"])
 skyscanner.*,tianxun.com##div > a:has(div[class^="DefaultBanner_sponsorshipRow"])
 skyscanner.*,tianxun.com##div:has(> a[data-testid="inline-brand-banner"])
@@ -71558,6 +71563,7 @@ wbur.org##.bp-label
 wbur.org##.section--bp
 wbur.org##.section--takeover
 wbur.org#?#div[class^="CardWrapper"] > article:has(> .uw > .bp--rec)
+wc2026fifa.com##a[data-track] > img
 wcax.com,kxii.com,kwtx.com,alaskasnewssource.com,ky3.com##body .arc-ad
 wccftech.com##.ad a[href][rel="sponsored"]
 wccftech.com##.bg-horizontal
