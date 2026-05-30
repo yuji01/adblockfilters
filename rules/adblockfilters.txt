@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260530024146
-! Last modified: 2026/05/30 02:41:46
-! Blocked Filters: 107132
+! Version: 20260530105317
+! Last modified: 2026/05/30 10:53:17
+! Blocked Filters: 107133
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -9817,12 +9817,12 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 5dariyanews.com##a[href="https://www.5dariyanews.com/sponsored-ads.aspx"]
 5dariyanews.com##h2:has(a[href*="sponsored-ads"])
 5di.tv###topnotice,#sponsorAdDiv,.yhq,.wx-yqgz,.layui-layer-shade,[height="90"]
+5dm.dev##div[id^="player_p"]
 5dm.link###popop
 5dm.link###rip
 5dm.link###xaify
 5dm.link##a[href^="https://aigirlfriendstudio.com/"]
 5dm.link##a[href^="https://equity.tmall.com/"]
-5dm.link##div[id^="player_p"]
 5dm.link#@#.tm-share-this
 5dm.tv##[src*="sinaimg.cn"]
 5dy15.cc##div[id][class^="is_"][style^="margin"]
@@ -12884,6 +12884,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||bizpacreview.com^$csp=script-src 'self' *.leadpages.net *.gstatic.com *.google.com *.googleapis.com *.playwire.com *.facebook.com *.bootstrapcdn.com *.twitter.com *.spot.im
 @@||bizx.info$domain=sourceforge.net
 @@||bjjhq.com/HttpCombiner.ashx?$script,~third-party
+@@||blackbaud.net/proxy/api/track/
 @@||blackcircles.ca^$script,~third-party
 @@||blackmod.net^$generichide
 @@||blackwot.ru/ads/ads.js$domain=blackwot.ru
@@ -76801,7 +76802,7 @@ zzzyk.com###Tinfo
 ||5dariyanews.com/images/adherecolads.jpg
 ||5dariyanews.com/images/local-classifieds-online-ad.gif
 ||5dimes.com^$popup
-||5dm.link/htm$image
+||5dm.*/htm$image
 ||5dm.link/htmI/*.gif
 ||5dm.tv/html/5dma.jpg
 ||5dm.tv/html/5dmm.jpg
