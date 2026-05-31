@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260531111018
-! Last modified: 2026/05/31 11:10:18
-! Blocked Filters: 107139
+! Version: 20260531182600
+! Last modified: 2026/05/31 18:26:00
+! Blocked Filters: 107138
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -2104,8 +2104,8 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /CreateCookieSSO_
 /CustomTrackingScript.js
 /DG/DEFAULT/rest/*
-/DNSCheck.js
-/DNSChecker.js
+/DNSCheck.js$domain=~github.com
+/DNSChecker.js$domain=~github.com
 /DynamicAnalytics.js
 /EZ-YAHOO/*$domain=ezvivi.com
 /EmailOpenTrackLog.aspx?$image
@@ -78931,7 +78931,6 @@ zzzyk.com###Tinfo
 ||amazonaws.com/www.katsomo.fi/config.json$replace=/"enabled": true\,/"enabled": false\,/i
 ||amazonaws.com/www.katsomo.fi/config.json$replace=/"enabled": true\,/"enabled": false\,/i,important
 ||amazonaws.com^$domain=animeflv.net|mangakakalot.gg|nelomanga.net|uploadhaven.com
-||amazonaws.com^$domain=mangakakalot.gg|nelomanga.net|uploadhaven.com
 ||amazonaws.com^$xmlhttprequest,redirect=nooptext,domain=crackle.com
 ||amazonaws.com^*/prod_analytics
 ||amazononline.xyz/mp4/*.mp4$redirect=noopmp3-0.1s,domain=iyingshi7.tv|localmv1.com
@@ -87078,6 +87077,7 @@ zzzyk.com###Tinfo
 ||ftp2.verypsp.com/*.gif|$image
 ||ftp2.verypsp.com/55qp.jpg$image
 ||ftz.io^$third-party
+||fubuki-umami.space/api/script.js
 ||fuck-ads.vercel.app^$document
 ||fuck-videos.xxx/tmp/
 ||fuckbook.cm^$third-party
@@ -105477,7 +105477,6 @@ zzzyk.com###Tinfo
 ||workers.dev/api/event
 ||workers.dev/js/script.js
 ||workers.dev^$domain=axiang.cc
-||workers.dev^$domain=chessgames.com
 ||workers.dev^$domain=chessgames.com|player.vidzee.wtf
 ||workers.dev^$subdocument,domain=katfile.vip
 ||workingvpn.com/banners/$domain=ytmp3.net
