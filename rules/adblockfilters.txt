@@ -3,8 +3,8 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260603035148
-! Last modified: 2026/06/03 03:51:48
+! Version: 20260603115049
+! Last modified: 2026/06/03 11:50:49
 ! Blocked Filters: 107211
 !
 $$a[href="/js/app.htm?url="]
@@ -37967,7 +37967,7 @@ forums.redflagdeals.com###header_billboard_bottom
 forums.redflagdeals.com###primisContainer
 forums.redflagdeals.com###primisPlayerContainerDiv
 forums.redflagdeals.com##.forum_topic_inline_bigbox
-forums.redflagdeals.com##.topic-card:has(> .sponsored-offer)
+forums.redflagdeals.com##.topiclist > .topic:has(span.sponsored)
 forums.redflagdeals.com##div[class$="_post_ad"]
 forums.redflagdeals.com##li[class^="forum_topic_inline_container_"]
 forums.sailinganarchy.com##div[data-widget-key="postcast_sponsors"]
