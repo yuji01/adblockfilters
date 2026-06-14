@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260614013212
-! Last modified: 2026/06/14 01:32:12
-! Blocked Filters: 107445
+! Version: 20260614114541
+! Last modified: 2026/06/14 11:45:41
+! Blocked Filters: 107453
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -9917,6 +9917,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 69games.xxx,porcore.com##body > [id][style^="position: fixed; top: 0px;"]
 69story.com###main > div[style="margin-top: 15px;"]
 69story.com##aside#secondary > section[id="text-2"]
+69tang.org##a[id^="imgs_link"]
 69vj.com###nta
 69xx.one,69xx487.xyz,8mav.cc,av411.xyz,cable2055.cc,theav.xyz,thep178.com,theporn.cc,weav.xyz#?#[class]:-abp-has(>a>.q-responsive)
 69xx.one,69xx487.xyz,8mav.cc,av411.xyz,cable2055.cc,theav.xyz,thep178.com,theporn.cc,weav.xyz#?#[class]:has(>a>.q-responsive)
@@ -27262,8 +27263,8 @@ bestjavporn.com#@#.ad-placement
 bestjavporn.com,javdock.com,javhdporn.net##.related-native-banner
 bestjavporn.com,javxxx.me,javhdporn.net###player_3x2_container_inner
 bestlifeonline.com,bodynetwork.com,hellogiggles.com##.widget_gm_karmaadunit_widget
-bestlifeonline.com,eatthis.com##.inline
 bestlifeonline.com,eatthis.com,hellogiggles.com##.vi-video-wrapper
+bestlifeonline.com,eatthis.com,wolfsgamingblog.com##.inline
 bestlifeonline.com,zeenews.india.com##.first-ad
 bestlittlebaby.com#?#.row > div[class]:has(> div.info-box > div:contains(/^Advertisement$/))
 bestmalevideos.com##.sidebar > div[id^="ad"]
@@ -32557,6 +32558,7 @@ dailymail.co.uk,thisismoney.co.uk##.connatix-wrapper
 dailymail.co.uk,thisismoney.co.uk##.watermark
 dailymail.co.uk,thisismoney.co.uk#@#.article-advert
 dailymail.com##.billboard-container
+dailymail.com##.mol-products-module
 dailymemphian.com###offer-wrapper
 dailymotion.com##.dmp_VideoView-ad-slot
 dailymotion.com##div[class^="AdBanner"]
@@ -33464,7 +33466,6 @@ digitaltrends.com##[class*="--ads"]
 digitaltrends.com##body .dtads-location
 digitaltrends.com#$#.dtads-slot { position: absolute!important; left: -2000px!important; }
 digitaltrends.com,themanual.com##.dt-primis
-digitimes.com###adspace
 digitimes.com###bigsquare
 digitimes.com##.square-ad
 digitimes.com.tw##.dt-ad-block
@@ -34817,6 +34818,7 @@ ebay.co.uk##div[title="ADVERTISEMENT"]
 ebay.co.uk,ebay.com,ebay.com.au##.srp-1p__link
 ebay.co.uk,ebay.com,ebay.de#@#.adv
 ebay.com##div[title="ADVERTISEMENT"]
+ebay.com,revolt.tv##.leaderboard_ad
 ebb.io#%#//scriptlet('set-constant', 'ga', 'noopFunc')
 ebb.io#%#//scriptlet('set-constant', 'google_empty_script_included', 'true')
 ebc.net.tw###lotteryfnc
@@ -39318,6 +39320,7 @@ gamespot.com##script.stub-leader
 gamespot.com##script.stub-mpu
 gamesradar.com###sidebar > div[style]:not([class]):not([id]) > div[style*="width: 100%"]:not([class]):not([id])
 gamesradar.com##.bordeaux-slot
+gamesradar.com##.dfp-leaderboard-container
 gamesradar.com##.in-article
 gamesradar.com##div[style^="position: relative; box-sizing: border-box; height: auto;"][style*="text-align: center; display: block; transform: none; contain: layout; width: 300px;"]
 gamesradar.com##div[style^="width: 970px; height: 250px; contain: style layout size;"]
@@ -42455,6 +42458,8 @@ hindustantimes.com###affiliate-shop-now
 hindustantimes.com###divTopNews:empty
 hindustantimes.com###divshopnowRight
 hindustantimes.com###section_news
+hindustantimes.com##.adHeight270
+hindustantimes.com##.adHeight313
 hindustantimes.com##.advInBtweenNewsCard
 hindustantimes.com##.advStoryDetailInline
 hindustantimes.com##.affilaite-widget
@@ -60674,7 +60679,6 @@ reviewstation.me###adxbox
 revimedia.com#@#a[href*=".revimedia.com/"]
 reviversoft.com##.promo_dr
 revolt.tv##.header-banner-wrapper
-revolt.tv##.leaderboard_ad
 revolution935.com##.qt-sponsor
 revolutionsoccer.net##.mls-o-adv-container
 revolve.com##.site-footer__promo-container
@@ -61882,6 +61886,7 @@ securityonline.info###block-59
 securityonline.info,lanouvelletribune.info,supertelatv.net,yearn-magazine.fr,cantaringles.com,javgay.com,rozbor-dila.cz,filmeseserieshd.org,kizzboy.com,meterpreter.org,atelevisao.com,worldoftrucks.ru,novelleleggere.com,plant-home.net,mundo-pack.com,jmusic.me###adblock_screen
 securityweek.com##.simplemodal-container
 securityweek.com##.simplemodal-overlay
+securityweek.com##.sw-block-webinar
 securityweek.com##.sw-bulletin
 securityweek.com##.sw-home-ads
 securityweek.com##.zox-post-ad-wrap
@@ -72811,6 +72816,7 @@ woiden.id#@#.ad-box:not(#ad-banner):not(:empty)
 woiden.id#@#.ad-wrapper
 wolepan.com##.gg-down-line
 wolframclient.net#?#.post-content > div:has(ins.adsbygoogle)
+wolfsgamingblog.com##.wpa-about
 wololo.net##.content > div[style*="background-color"]:not([class]):not([id])
 wololo.net##.entry-inner > blockquote > center
 wololo.net##.entry-inner > center
@@ -84941,6 +84947,7 @@ zzzyk.com###Tinfo
 ||dev.to^*/billboards/post_comments^
 ||dev.to^*/billboards/post_sidebar^
 ||dev.visualwebsiteoptimizer.com/*/track-
+||dev.visualwebsiteoptimizer.com/ping_tpc.php
 ||dev2pub.com^$third-party
 ||devaluequalmrelative.com^$popup
 ||devapp.it/wordpress/wp-content/uploads/*-300x250.
@@ -107398,7 +107405,6 @@ zzzyk.com###Tinfo
 ~cityheaven.net###gg1
 ~daquandy.com##.m_acmsd
 ~daquandy.com##.pc_acmsd
-~dogdrip.net,~smsonline.clou##ins[id][style*="--gn-ov-ad-height"]
 ~dogdrip.net,~smsonline.cloud##amp-img[height="   120"]
 ~dogdrip.net,~smsonline.cloud##amp-img[width="   300"]
 ~dogdrip.net,~smsonline.cloud##amp-img[width="   336"]
@@ -107417,7 +107423,9 @@ zzzyk.com###Tinfo
 ~dogdrip.net,~smsonline.cloud##div[style^="width:    300px; height:    250px;"]
 ~dogdrip.net,~smsonline.cloud##img[height="   250"][width="   300"]
 ~dogdrip.net,~smsonline.cloud##img[height="   90"][width="   728"]
+~dogdrip.net,~smsonline.cloud##ins[id][style*="--gn-ov-ad-height"]
 ~dogdrip.net,~smsonline.cloud##ins[style$="height:    90px; width:    728px;"]
+~dogdrip.net,~smsonline.cloud#$#iframe[id][height^="  "] { visibility: hidden !important; }
 ~fishmsg.net,~briian.com##.a_pt
 ~g.ifeng.com,ifeng.com##a[href*="/g.ifeng."]
 ~github.com$$script:contains(!function(){function a(a){var _idx=)
