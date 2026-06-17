@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260617034520
-! Last modified: 2026/06/17 03:45:20
-! Blocked Filters: 106740
+! Version: 20260617114904
+! Last modified: 2026/06/17 11:49:04
+! Blocked Filters: 106737
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -12537,7 +12537,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||appsha-pnd.ctengine.io/js/script.js$domain=faucetcrypto.com
 @@||apptoko.com^$generichide
 @@||appvn.com^$generichide
-@@||appzdam.net^$elemhide
 @@||aps-web.adobe.io/webapps/access_profile$stealth=3p-auth
 @@||apv-launcher.minute.ly/api/$script
 @@||aqlier.com^$generichide
@@ -80199,7 +80198,6 @@ zzzyk.com###Tinfo
 ||audiobookbay.*/images/fr.jpg
 ||audiobookbay.lu/images/dlt.gif
 ||audiobookbay.lu/images/drr.gif
-||audiobookbay.nl^$replace=/window.location.replace\("\/member\/adblock.php"\);/return;/,~script,~stylesheet,~xmlhttprequest
 ||audioeye.com/ae.js
 ||audioeye.com/frame/cookieStorage.html
 ||audioknigi.club/templates/skin/aclub/js/m/bgd.js
@@ -84817,7 +84815,6 @@ zzzyk.com###Tinfo
 ||demandscience.com^$third-party
 ||demanier.com^$third-party
 ||demaxiya.com/v4/dd/
-||demo.smarttutorials.net/how-to-detect-adblocker-with-javascript-demo/js/script.js$third-party
 ||demo.wp-script.com/rtt-adult/wp-content/themes/retrotube/assets/img/banners/
 ||demolandia.net/downloads.html$replace=/if \(baitBlocked \|\| !adOk \|\| isIncognito \|\| isBrave\)/if(!1)/,document
 ||demonicscans.org/toffee/
