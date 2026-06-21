@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260621115147
-! Last modified: 2026/06/21 11:51:47
-! Blocked Filters: 106811
+! Version: 20260621192702
+! Last modified: 2026/06/21 19:27:02
+! Blocked Filters: 106818
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -9612,9 +9612,13 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 5184.com##.gg600
 51av.biz##table#table2,[height="134"]
 51bczx.com##[src^="http://www.51bczx.com/images1/"]
+51cg1.com##.dplayer-pre-bg
+51cg1.com##.dplayer-pre-countdown
+51cg1.com##.dplayer-pre-img
 51cg1.com##.horizontal-banner
 51cg1.com##.post-card-ads
 51cg1.com##article:has(> a > div.post-card > div[style^="background-image: url(\"data:image/gif;base64"])
+51cg1.com#%#//scriptlet('set-constant', 'DPLAYER_PREROLL_AD.attachPreRollAd', 'noopFunc')
 51credit.com###ajax_adtext,.fixed-ad,div#bottomLayer
 51credit.com###leftLayerDown
 51credit.com##.credit-box
@@ -96870,6 +96874,7 @@ zzzyk.com###Tinfo
 ||player.twitch.tv/js/embed/v1.js$domain=wago.io|uesp.net
 ||player.twitch.tv^$domain=aetherhub.com
 ||player.videasy.*/scripts/ab.js
+||player.videasy.to/scripts/ab.js
 ||player.vidplus.to/vast/vast.xml
 ||playerembed-lb.blackboxsys.net/images/banners^$image,domain=dooball66s.com
 ||playerls.com/js/jquery/*/jquery-*.min.js?v=
@@ -103820,6 +103825,7 @@ zzzyk.com###Tinfo
 ||userreplay.net^$third-party
 ||userreport.com^$third-party
 ||users-api.com^$third-party
+||users.videasy.to/api/track
 ||userscript.zone/s.js
 ||usersonline.org/ping.php?
 ||userstatics.com/get/script.js
@@ -105864,6 +105870,7 @@ zzzyk.com###Tinfo
 ||xvideos.com/zoneload/
 ||xvideos.es/zoneload/
 ||xvideos.name/istripper.jpg
+||xwcm.net/caches/ahm.
 ||xwhite-tube.com/eureka/eureka.js
 ||xwhite-tube.com/js/aobj.js
 ||xxdm.in/js/union/
