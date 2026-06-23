@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260623110021
-! Last modified: 2026/06/23 11:00:21
-! Blocked Filters: 106885
+! Version: 20260623191157
+! Last modified: 2026/06/23 19:11:57
+! Blocked Filters: 106904
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -11749,7 +11749,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||adobedtm.com/launch-$script,xmlhttprequest
 @@||adobedtm.com^$script,domain=sonystyle.com.cn
 @@||adobedtm.com^*-libraryCode_source.min.js$domain=doda.jp
-@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|aircanada.com|ally.com|americanexpress.com|as.com|atresplayer.com|automobiles.honda.com|backcountry.com|bbva.com.ar|bbvacib.com|bbvauk.com|bestbuy.ca|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|deutsche-bank.de|dollargeneral.com|etihad.com|eurosport.de|fedex.com|guitarcenter.com|healthsafe-id.com|healthy.kaiserpermanente.org|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ihg.com|imsa.com|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|lifetime.life|lowes.com|manager-magazin.de|marriott.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|philips.com|plasticsnews.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|sephora.com|snsbank.nl|ssrn.com|starwarscelebration.com|subway.com|tatacliq.com|telegraph.co.uk|telus.com|verizon.com|virginplus.ca|walgreens.com|xfinity.com
+@@||adobedtm.com^*-source.min.js$script,domain=53.com|aarp.org|aircanada.com|ally.com|americanexpress.com|as.com|atresplayer.com|automobiles.honda.com|backcountry.com|bbva.com.ar|bbvacib.com|bbvauk.com|bestbuy.ca|bose.ae|bose.at|bose.ca|bose.ch|bose.cl|bose.co|bose.co.jp|bose.co.nz|bose.co.uk|bose.com|bose.com.au|bose.de|bose.dk|bose.es|bose.fi|bose.fr|bose.hk|bose.hu|bose.ie|bose.it|bose.lu|bose.mx|bose.nl|bose.no|bose.pe|bose.pl|bose.se|boseapac.com|bosebelgium.be|boselatam.com|bt.com|cadenaser.com|churchofjesuschrist.org|cibc.com|crave.ca|currys.co.uk|deutsche-bank.de|dollargeneral.com|etihad.com|eurosport.de|fedex.com|guitarcenter.com|healthsafe-id.com|healthy.kaiserpermanente.org|helvetia.com|hgtv.com|hilton.com|homedepot.ca|ihg.com|imsa.com|ing.com.au|ingrammicro.com|kroger.com|lenovo.com|lifetime.life|lowes.com|manager-magazin.de|marriott.com|medscape.com|mtvuutiset.fi|mybell.bell.ca|natwest.com|nbarizona.com|news.sky.com|philips.com|plasticsnews.com|pnc.com|poweredbycovermore.com|ralphlauren.com|samsung.com|sephora.com|snsbank.nl|ssrn.com|starwarscelebration.com|subway.com|tatacliq.com|telegraph.co.uk|telus.com|verizon.com|virginplus.ca|walgreens.com|xfinity.com
 @@||adobedtm.com^*/AppMeasurement.min.js$script,domain=sky.it
 @@||adobedtm.com^*/launch-$script,xmlhttprequest
 @@||adobedtm.com^*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|as.com|backcountry.com|ceair.com|conad.it|costco.com|dhl.de|fcbarcelona.cat|fcbarcelona.cn|fcbarcelona.com|fcbarcelona.es|fcbarcelona.fr|fcbarcelona.jp|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|sony.jp|tatacliq.com|usanetwork.com|vanityfair.com|wired.com
@@ -13290,6 +13290,9 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||cdn.adsninja.ca/adsninja_worker_caller.js$domain=makeuseof.com|howtogeek.com
 @@||cdn.adsninja.ca/an_sn.js$domain=polygon.com
 @@||cdn.adsninja.ca/api/$domain=polygon.com
+@@||cdn.adsninja.ca/v*/an.js$domain=thegamer.com
+@@||cdn.adsninja.ca/v*/init.js$domain=thegamer.com
+@@||cdn.adsninja.ca/v*/valstream.js$domain=thegamer.com
 @@||cdn.adspirit.de/banner/_default/160x600.jpg$domain=streetdir.com|roaddir.com
 @@||cdn.adspirit.de/banner/_default/300x250.jpg$domain=streetdir.com|roaddir.com
 @@||cdn.adspirit.de/banner/_default/468x60.jpg$domain=streetdir.com|roaddir.com
@@ -19390,7 +19393,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||pkstep.com^$generichide
 @@||pl-play.adtonos.com^$domain=radio-internetowe.com
 @@||pl-play.adtonos.com^$domain=tokfm.pl
-@@||places.googleapis.com/*/AutocompletePlaces$stealth=referrer
+@@||places.googleapis.com/*autocomplete$stealth=referrer
 @@||places.nbnco.net.au/places/$stealth=referrer
 @@||pladform.ru/dive/$xmlhttprequest
 @@||pladform.ru/player$subdocument
@@ -36923,6 +36926,7 @@ feebee.com.tw##div[id^="afsh_"]
 feed.baidu.com##a[data-type="ec_ad"]
 feedicons.com###footerboard
 feeds.qq.com,lenovo.com.cn##.game
+feedzop.com##div[data-gzp-display-ad-status]
 feet9.com#%#//scriptlet("abort-on-property-read", "__ADX_URL_U")
 feetporno.com,freehardcore.com,cartoonporn.com###_iframe_content
 fei3d.com##div#aktuals_field,div.content-wrapper
@@ -37847,6 +37851,8 @@ foodnetwork.com##[data-slot-type="ad_aside"]
 foodnetwork.com##[data-slot-type="ad_aside_top"]
 foodnetwork.com#$#body[style^="margin-top: 90px;"] { margin-top: 0!important; }
 foodrenegade.com##.top-cta
+foodrepublic.com##.raptive-video-player
+foodrepublic.com,islands.com##.article > .under-art:has(> .zergnet-widget)
 foodsforbetterhealth.com###text-46
 foodtechnos.in#%#//scriptlet('abort-current-inline-script', 'document.getElementById', 'window.open')
 foojay.io##.sponsors-block
@@ -45510,7 +45516,6 @@ isiyuan.net#?##page-list > ul > .layui-row:-abp-has(.ad)
 isiyuan.net#?##page-list > ul > .layui-row:has(.ad)
 islamicfinder.org###sky-scraper-ad
 islamicfinder.org##.pad-xs.box.columns.large-12
-islands.com##.article > .under-art:has(> .zergnet-widget)
 islegitsite.com##div[style="max-width: 728px; min-height: 150px;"]
 isnews.it##.bannergroup
 isnews.it##.rstboxes
@@ -57663,7 +57668,7 @@ pluspremieres.*#%#//scriptlet("abort-current-inline-script", "$", "var selector"
 pluspremieres.*#%#//scriptlet("prevent-setInterval", "/\['\\x[\s\S]*?checkInterval/")
 pluto.tv##.pauseAdContainer
 pluto.tv#%#//scriptlet('json-prune', 'adBreaks.*')
-pluto.tv#%#//scriptlet('xml-prune', 'xpath(//*[name()="Period"][.//*[name()="BaseURL" and contains(text(),"_ad")]] | //*[name()="MPD"]/@mediaPresentationDuration | //*[name()="Period"]/@start)', '', '/\/episode\/.+?\.mpd\?/')
+pluto.tv#%#//scriptlet('xml-prune', 'xpath(//*[name()="Period"][.//*[name()="BaseURL" and contains(text(),"_ad") and contains(text(),"/mp4/")]] | //*[name()="MPD"]/@mediaPresentationDuration | //*[name()="Period"]/@start)', '', '/\/episode\/.+?\.mpd\?/')
 plutomovies.com###dl-btn-wrapper + a[rel="nofollow"]
 plutomovies.com##a[href^="https://go.wapdg.com/"]
 plutomovies.com#@#.ad-slot
@@ -59870,6 +59875,7 @@ quizlet.com#%#//scriptlet('set-constant', 'Object.prototype.isRenderingAdInFlash
 quizlet.com#%#//scriptlet('set-constant', 'adshield', 'emptyObj')
 quizlet.com#?##__next > div[class] > div[class][style] > div[class][style*="--"][style*="block"]:has(> .SiteAd:only-child)
 quizlet.com#?#.ExplanationsSolutionStep ~ div:has(> div.SiteAd)
+quizzop.com##.display-ad_displayAdWrapper__nO4Kb
 qunar.com##.flight_ad
 qunar.com##.list_promotion_bar
 qunar.com##DIV.b_banner,[id^="ad_"],OBJECT[id^="banner_home_"],div.qn_slide,div#QNT_box,div.mp-download,#js_bannerContent
@@ -66237,7 +66243,6 @@ technofino.in#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 technojobs.co.uk#?#.section > div.block:has(> div.content > h2:contains(Featured Recruiters))
 technology.org##.techorg-banner
 technologymagazine.com##div[data-isadrow]
-technologymagazine.com,fintechmagazine.com,zerohedge.com##div[class^="Advert_"]
 technologynetworks.com##.adverts_footer_scrolling_advert
 technologynetworks.com##.inner_content_olp_on_site_landing_page
 technologynetworks.com#?#.preText:contains(Continue reading below...)
@@ -66320,8 +66325,12 @@ techrepublic.com###leader-plus-top
 techrepublic.com###mantle_skin > div > .ad-active + div[style="width:100%"]
 techrepublic.com###nav-ad
 techrepublic.com##.ad-active + div[style="width:100%"]:not([class]):not([id])
+techrepublic.com##.ad-container
+techrepublic.com##.prose > div.has-data-empty\:hidden
+techrepublic.com##div[data-ad-slot]
 techrepublic.com##div[data-medusa-async-options]
 techrepublic.com##section[class^="content-mpu"] > div
+techrepublic.com##sticky-footer-ad
 techrepublic.com#?#.col-4 > div:has(> section[class^="content-mpu"])
 techrifle.com,sawbank.com,true-tech.net,dailyboulder.com,aclsports.com,route-one.net,prajwaldesai.com,stvincenttimes.com#%#//scriptlet('prevent-setTimeout', 'placebo')
 techrifle.com,sawbank.com,true-tech.net,dailyboulder.com,aclsports.com,route-one.net,prajwaldesai.com,stvincenttimes.com#@#.ad-wrap:not(#google_ads_iframe_checktag)
@@ -66469,6 +66478,7 @@ tekrevue.com##.ad-post-trail
 tekstowo.pl##.adv-home
 tektutorialshub.com###text-139
 telanganatoday.com##.branding .topA > a[href][target="_blank"] > img
+telcomagazine.com,technologymagazine.com,fintechmagazine.com,zerohedge.com##div[class^="Advert_"]
 teleboy.ch##.grid-col-content-leaderboard
 telecharger-youtube-mp3.com#%#//scriptlet('remove-attr', 'onclick|href', 'a[href][onclick^="setTimeout(function(){ window.open("][onclick*="clksite.com"]')
 telecomasia.net##.js-seo
@@ -69342,6 +69352,7 @@ tubewolf.com##[id^="TA"][id*="-Native-"]
 tubewolf.com#?#.main > h2:contains(/You may also like|Suggested for you/)
 tubexnxx.pro##.full-brkas-container
 tubitv.com#%#//scriptlet('prevent-fetch', 'adrise.tv/js/ads.js')
+tubitv.com#%#//scriptlet('trusted-json-set', 'Promise.resolve', '$.items[?(@.ad_id)]', '$remove$', '', 'arg:0')
 tuborstb.co#%#//scriptlet('prevent-window-open')
 tubous.com###good_money
 tubous.com##.DarkBg
@@ -70179,6 +70190,7 @@ umatechnology.org,geekchamp.com#%#//scriptlet('abort-current-inline-script', 'Ev
 umbooks.com#%#//scriptlet('abort-current-inline-script', 'document.writeln')
 ummid.com##body > .gridContainer > #Header
 umod.org##ins[data-revive-id]
+umogames.com##.style-module_gam_container__9KUaZ
 umogames.com,quizzop.com,gamezop.com,gamezop.io,feedzop.com,criczop.com,astrozop.com#%#//scriptlet('trusted-replace-argument', 'HTMLScriptElement.prototype.setAttribute', '1', '', '/error-report|new Promise|;await new|:\[?window|&&window,|void 0\]|location\.href|void 0\|\|window|,window,|void 0,window|\[0,window\]|\)\.join\(String\.fromCharCode/')
 umogames.com,quizzop.com,gamezop.com,gamezop.io,feedzop.com,criczop.com,astrozop.com#%#//scriptlet('trusted-replace-argument', 'HTMLScriptElement.prototype.setAttribute', '1', 'replace:/.+(error-report|new Promise|:window|&&window,|\|\|window,|void 0\]|html-load\.com[\s\S]*_onerror).+//g')
 unb.com.bd##img[style^="width:700px; height:70px;"]
@@ -79794,6 +79806,8 @@ zzzyk.com###Tinfo
 ||api.pcid.ca/v1/client/logs
 ||api.pcsysoft.com/api/app/member^
 ||api.pcsysoft.com/api/app/video/ver2/sys/queryAppAddr/
+||api.pearcommerce.com/v1/client_request_log?
+||api.pearcommerce.com/v1/page_load?
 ||api.perspektywy.pl/v*/banners/
 ||api.picox.bendingspoons.com/v1/events
 ||api.pinyin.sogou.com/v1/bubble/ad
@@ -98383,7 +98397,7 @@ zzzyk.com###Tinfo
 ||rainbet.com/api/ping
 ||rainbownine.net^$third-party
 ||raindrop.io/pb/api/event
-||rainmaker.production-public.tubi.io/rev/WEB?app_id=tubitv*&pub_id=*&*vpaid_enabled=true
+||rainmaker.production-public.tubi.io/*/WEB?app_id=tubitv*&pub_id=*&*vpaid_enabled=
 ||rainpat.com/Content/1360x55/
 ||rainpat.com/Scripts/jquery.SuperSlide.
 ||raiplay.it/tracking/
@@ -103384,6 +103398,7 @@ zzzyk.com###Tinfo
 ||tubevintageporn.com/js/775eka341.js
 ||tubevintageporn.com/js/bkcwe.js
 ||tubewolf.com/pop
+||tubi.io/api/v*/ad_override?
 ||tubi.io/datascience/logging?
 ||tubitv.com/oz/performance/
 ||tubous.com/bloader.php
@@ -105577,12 +105592,16 @@ zzzyk.com###Tinfo
 ||x.autoimg.cn/dealer/custom/subsite/forcePicAd20160628.js
 ||x.com/*/videoads/
 ||x.com/1.1/attribution
+||x.com/1.1/graphql/app_context.json
 ||x.com/1.1/graphql/error_log.json
 ||x.com/1.1/graphql/user_flow.json
+||x.com/1.1/graphql/viewer_context.json
 ||x.com/1.1/jot
 ||x.com/9/measurement/
+||x.com/i/api/1.1/graphql/app_context.json
 ||x.com/i/api/1.1/graphql/error_log.json
 ||x.com/i/api/1.1/graphql/user_flow.json
+||x.com/i/api/1.1/graphql/viewer_context.json
 ||x.com/i/api/1.1/jot
 ||x.com/i/csp_report
 ||x.com/i/jot
