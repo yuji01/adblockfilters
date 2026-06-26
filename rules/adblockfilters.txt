@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260626021905
-! Last modified: 2026/06/26 02:19:05
-! Blocked Filters: 106997
+! Version: 20260626110425
+! Last modified: 2026/06/26 11:04:25
+! Blocked Filters: 107001
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -59002,7 +59002,7 @@ primemovies.pl##div[data-insertion-position]
 primepropertynow.com,kdvqi.xyz#@#[id^="div-gpt-ad"]
 primepropertynow.com,kdvqi.xyz#@#div[id^="div-gpt-"]
 primeradivision.pl,fcbarca.com##.banner
-primesrc.me#%#//scriptlet('remove-attr', 'href', 'a.splash')
+primesrc.me#%#//scriptlet('remove-attr', 'href', 'div.embed-player > a[class^="spla"]')
 primetechieforum.com#%#//scriptlet('prevent-element-src-loading', 'img', 'doubleclick.net')
 primetimer.com###primis-ad-container
 primetimer.com##.optidigital-wrapper-div
@@ -62160,7 +62160,10 @@ semafor.com##._adDivider_1qocf_29
 semafor.com##._adHeaderMargin_psyvh_111
 semafor.com##._adMargin_psyvh_211
 semafor.com##._homeMiddleAd_x95p9_29
+semafor.com##div[class^="_adDivider_"]
 semafor.com##div[class^="styles_ad"]
+semafor.com##div[data-testid="ad-body"]
+semafor.com##div[data-testid="ad-sticky-header"]
 semafor.com##div[data-testid^="ad-"]
 semafor.com#?#.suppress-rss:has(:contains(Supported by))
 semafor.com#?#.suppress-rss:has(:has-text(Supported by))
@@ -105261,6 +105264,7 @@ zzzyk.com###Tinfo
 ||wirewuss.com^$third-party
 ||wisetrack.net^$third-party
 ||wish.com/api/analytics/
+||wispbyte.com/client/scripts/wisp-cmp-bridge.js
 ||wissekeygroup.com^$all
 ||wistia.com/assets/external/googleAds.js
 ||wit.qq.com^$third-party
