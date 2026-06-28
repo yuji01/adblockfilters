@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260628183508
-! Last modified: 2026/06/28 18:35:08
-! Blocked Filters: 107055
+! Version: 20260629011715
+! Last modified: 2026/06/29 01:17:15
+! Blocked Filters: 107047
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -1484,6 +1484,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 .icu/ads/
 .imgur.com/lumbar.gif
 .in/js/ads/
+.in/js/footer_ad.js
 .info.kansaimiraibank.co.jp/c/*.gif
 .info/ad.js
 .info/ad/
@@ -2634,6 +2635,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /ad-agent^
 /ad-blocking-advisor/*$script,stylesheet
 /ad-blocking-alert/*$stylesheet
+/ad-blocking-detector/assets/js/adblock-detector.min.js
 /ad-choices-$image
 /ad-choices.png$image
 /ad-provider.
@@ -2707,13 +2709,11 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /adb1.gif?
 /adbanners/*$image
 /adblock-detect.$script
-/adblock-detector.min.js$script
 /adblock-notify-by-bweb/*$script,stylesheet
 /adblock/frontend_loader.js
 /adblockLogger/*
 /adblock_detector2.$script
 /adblock_logger.$script
-/adblockdetect.js$script
 /adblocker.js$domain=hindimearticles.net|solution-hub.com
 /adbot.
 /adcg/*
@@ -2818,7 +2818,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /adrotator.
 /ads-
 /ads-250.$image
-/ads-async.$script
 /ads-blocking-detector.$script
 /ads-common.$image,script
 /ads-front.min.js$script
@@ -2894,7 +2893,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /adsct?
 /adsdelivery/*$subdocument
 /adsen.php
-/adserv.$script
 /adserve/*$script
 /adserver.
 /adserver.$popup
@@ -3287,7 +3285,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /apstag.js$script
 /aptrk.js
 /apu.php?$script
-/arcads.js$script
 /ard.png?
 /aria-web-telemetry-
 /art/stats/*
@@ -3769,7 +3766,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /cms-gg.js
 /cms.gif?
 /cms/stats/*
-/cms_ads.js$script
 /cmslog.dll?
 /cn-track?
 /cnfriend/love.php
@@ -3857,7 +3853,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /condor.slgnt.eu/optiext/optiextension.dll?$image
 /confiant.js
 /configuration-stat.js
-/content-ads.js$script
 /content.php?id=148&type=g|$xmlhttprequest
 /content/ads/*$~xmlhttprequest
 /content/clyscontent.js
@@ -3927,7 +3922,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /cpc/*.ashx?u=$script,third-party
 /cpm/i.ashx?
 /cpmShopAds^
-/cpmbanners.js$script
 /cpro.$popup,third-party
 /cpro/ui/*
 /create-lead.js
@@ -4085,7 +4079,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /doseofporn.com\/[a-z]{0,5}[1-9]{0,5}[a-z]{0,5}[1-9][s\S]*.js/
 /dot.asp?
 /dot.gif?
-/doubleclick.min$script
 /doubleserve.js$badfilter
 /dow_analytics.js
 /download-link-js/?v=$script,~third-party
@@ -4373,7 +4366,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /footad*
 /footer-eventdata.js
 /footer-tracking.js
-/footer_ad.js$script,domain=~streamruby.com
 /footer_ads.php$subdocument
 /footerads.php$script
 /footerpixel.gif?
@@ -4940,7 +4932,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /inlineads.aspx$subdocument
 /inpl.measure.jssc
 /insales_counter.js?
-/insertads.js$script
 /inside-banner.mini.js$domain=irishradiolive.com|myonlineradio.at|myonlineradio.de|myonlineradio.hu|myonlineradio.nl|myonlineradio.sk|myradioendirect.fr|myradioenvivo.ar|myradioenvivo.mx|myradioonline.cl|myradioonline.es|myradioonline.it|myradioonline.pl|myradioonline.ro|ukradiolive.com
 /insights/reportEvent/*
 /insitemetrics/uRMJ/ujutilv2sll.js
@@ -5015,7 +5006,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /js/aahome.htm
 /js/ad.js$domain=69shuba.com
 /js/adInitializer.js$domain=ddwloclawek.pl|ddtorun.pl
-/js/ad_common.js$script
 /js/admiral-
 /js/ads/*0.js
 /js/ads/*2.js
@@ -5054,6 +5044,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /js/delay.
 /js/detector.js$domain=bestsimsmods.com|dtbps3games.com|passionategeekz.com
 /js/dfp.js$script
+/js/doubleclick.min.js?v=
 /js/dubao.
 /js/dyguosj/*
 /js/easyAD.js
@@ -6650,7 +6641,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /slade.js
 /sli.*/imp?$image
 /slide_in_ads_close.gif$image
-/slider_ad.js$script
 /sliderad.js$script
 /slot_cmp.js
 /sluurpy_track.js
@@ -6870,7 +6860,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /status/impression?
 /sticky_ads.js$script
 /stickyad.js$script
-/stickyads.js$script
 /storage/*.js#spot=$domain=beapirate.pw|proxtpb.art|unblocktheship.org
 /storage/*.js?_=$domain=tpb.one|unblocktheship.org
 /storage/js/videojs.sda.js$script
@@ -7395,6 +7384,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /vendor/analytics.js
 /vendor/analytics/*
 /vendor/cedexis/*
+/vendor/doubleclick.min.js
 /vendors~ads.
 /vestigo/v1/measure
 /vglnk.js
@@ -21005,6 +20995,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||starmoney.de^$stealth=dpi
 @@||stars24.cz^$generichide
 @@||start-player.npo.nl/video/$stealth=ip
+@@||startpage.com^$generichide
 @@||startrek.website/pictrs/image/$xmlhttprequest
 @@||startribune.com/analytics-assets/sitecatalyst/appmeasurement.js$~third-party
 @@||stash.roistat.com^|
@@ -23753,7 +23744,6 @@ ahaan.co.uk##.sticky-side-ad
 ahaan.co.uk#?#.MuiBox-root:has(> div[class*="-only"] > .adunitContainer)
 ahaan.co.uk,emailnator.com,myip.is,scrolller.com,whereto.stream##[href^="https://go.nordvpn.net/"]
 ahajournals.org##.header--advertisment__container
-ahajournals.org##.pb-las
 ahajournals.org,tandfonline.com##.pb-ad
 ahaonline.cz##.ads
 ahaonline.cz##.boxReklama
@@ -44589,6 +44579,7 @@ index.hr##div.js-carousel-campaign
 index.hr#%#(()=>{const e={apply:(e,t,o)=>{try{o[0].src?.includes?.("html-load.com")&&(o[0]=document.createElement("script"))}catch(e){}return Reflect.apply(e,t,o)}};window.Node.prototype.insertBefore=new Proxy(window.Node.prototype.insertBefore,e)})();
 index.hr#?#.categories > div.cube-holder:has(> div[data-css-class="google-box center-aligner"])
 index.hr,thingiverse.com,programme-tv.net#%#//scriptlet('set-constant', 'as_retry', '0')
+indexclix.com##[id^="promo"]
 indexsubtitle.cc#$##adblockModal[style] { display: none !important; }
 indexsubtitle.cc#$##adblockModal[style] ~ .modal-backdrop { display: none !important; }
 indexsubtitle.cc#$#body { overflow: auto !important; padding-right: 0 !important; }
@@ -49859,7 +49850,6 @@ m.lwxs.com#%#//scriptlet('abort-current-inline-script', 'eval', '_0x')
 m.meilishuo.com##a[href^="/goto/open/?bg"]
 m.mi.com##div.download-app-go
 m.mobile01.com##.u-gapNextV--lg.u-height280
-m.motonet.fi#@#.ProductAd
 m.mouthshut.com##.SecondAds
 m.mouthshut.com##.adsBoxRpt2
 m.moyareklama.ru#@#.single_ad
@@ -90608,6 +90598,7 @@ zzzyk.com###Tinfo
 ||independent.co.uk/iframe/native-cookiesync-frames.html
 ||independent.co.uk/internal-api/indy100
 ||index.ru^$third-party
+||indexclix.com/js/cpmbanners.js
 ||indexhu.adocean.pl/*ad.json$xmlhttprequest,redirect=nooptext,domain=embed.indavideo.hu
 ||indexstats.com^$third-party
 ||indextools.com^$third-party
@@ -93899,6 +93890,7 @@ zzzyk.com###Tinfo
 ||memo.co^$third-party
 ||menepe.com^$popup
 ||menews.org^$popup
+||mengelke.de/Pub/img/ads/werbebanner/adserv.gif
 ||mengis-linden.org^$third-party
 ||meninosonline.net/assets/filmesgratis-$image
 ||mensjournal.com/.bootscripts/analytics.min.js
