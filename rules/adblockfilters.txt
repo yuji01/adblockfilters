@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260628111005
-! Last modified: 2026/06/28 11:10:05
-! Blocked Filters: 107041
+! Version: 20260628183508
+! Last modified: 2026/06/28 18:35:08
+! Blocked Filters: 107055
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -3584,6 +3584,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /bv-analytics.js
 /bwp*js
 /bwp*php
+/bydataAnalytics.js
 /c-hive.min.js$script,~third-party
 /c.gif?
 /c.js#pid=$script,third-party
@@ -4329,6 +4330,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 /fingerprint3.js
 /fingerprint3.min.js
 /firebase-performance-compat.js
+/firebase-performance-standalone-compat.js
 /firebase-performance-standalone.js
 /firestats/js/fs.js.php
 /firm_tracking.js
@@ -11513,6 +11515,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||a.sellpoint.net^|
 @@||a.spolecznosci.net/pet?s=Shinden$domain=shinden.pl
 @@||a.usafacts.org/api/v4/Metrics$~third-party
+@@||a.vdo.ai/core/v-m-timesofindia-v3/vdo.ai.js$domain=timesofindia.indiatimes.com
 @@||a1.itc.cn/pv/js/spv.
 @@||a10.com/wdg/js_aggregator-active/js/module/monetisation/advertisement.js
 @@||a2zapk.dev/images/$image,domain=a2zupload.com
@@ -18743,6 +18746,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kisahdunia.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kissanime.com.ru|kissanime.co|kissanime.sx|kissanime.is
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kitguru.net
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kodibeginner.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=kpopflac.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=laptrinhx.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=leechpremium.link
@@ -23733,6 +23737,7 @@ aguitar.cn##.headerbanner2
 aguitar.cn##.news_b
 aguitar.cn##img[width="470"][height="60"]
 aguitar.cn,guitarchina.com##.headerbanner
+agupubs.onlinelibrary.wiley.com,ahajournals.org##.pb-las
 ah-me.com###ad_banner
 ah-me.com###allIMwindow
 ah-me.com###videoContainer_pop
@@ -40067,7 +40072,7 @@ gettranny.com##.video__wrapper > div.wrapper:has(> article > div.headline)
 gettranny.com#?#.wrapper:has(> h2:contains(Advertisement))
 gettranny.com,xjav.tube,manysex.tube,manysex.com##section[style="padding: 12px;"]
 gettubetv.com##span[style*="font-size: 12px;"][style*="text-decoration: none;"]
-getwallpapers.com,wallpaperaccess.com,wallpapercosmos.com,wallpaperset.com#@#.ads1
+getwallpapers.com,wallpaperaccess.com,wallpaperbat.com,wallpapercosmos.com,wallpaperset.com#@#.ads1
 getworkation.com,gentiluomodigitale.it###page-container + div[id][class*=" "]
 getyarn.io###filtered-bottom
 getyarn.io###filtered-top
@@ -47684,6 +47689,8 @@ kodi-guide.com##.privacy-box
 kodi-guide.com,techregister.co.uk,pornmium.com,etherealgames.com,androidphone.fr,esports.net,movilforum.com,apkmb.com,snat.co.uk,coursesxpert.com,thefappeningblog.com,nimtools.com,javhoho.com###text-2
 kodi-tutorials.uk###main > .code-block
 kodi-tutorials.uk##.entry-content > .code-block
+kodibeginner.com#%#//scriptlet('prevent-fetch', 'adsbygoogle')
+kodibeginner.com#%#//scriptlet('prevent-setTimeout', 'ai_adb_detected')
 kodinerds.net##.boxesSidebarRight
 koding.work#?#.sidebar > .widget_text:has(> .textwidget > .adsbygoogle)
 kodyrabatowe.naszemiasto.pl#?#body > div[class^="background"]:has(> .container:only-child > p:contains(Reklama))
@@ -58035,7 +58042,6 @@ popcrush.com#$##site-menu-wrapper > .logo { display: block!important; height: 50
 popcrush.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 popculture.com##.adInContent
 popculture.com##.wp-block-savage-platform-primis-video
-popculture.com##.wp-block-savage-platform-raptive-ad
 popculture.com##body .modernInContent > div[id^="oas_FC"]
 popculture.com##div[data-lx-claimed="zone-desktop-incontent"]
 popculture.com##div[data-lx-claimed="zone-desktop-index-leaderboard"]
@@ -58044,6 +58050,7 @@ popculture.com#$#.ad_blk { position: absolute!important; left: -3000px!important
 popculture.com#$#.topnav { top: 0px !important; }
 popculture.com#$#body div.adInContent { position: absolute!important; left: -3000px!important; }
 popculture.com#$#body.pcm-public:not(.skybox-loaded) { margin-top: 110px !important; }
+popculture.com,songfacts.com##.wp-block-savage-platform-raptive-ad
 popdaily.com.tw##div[class^="ad-delimiter-"]
 popkulturowykociolek.pl###media_image-5
 poplinks.sbs#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'AdBlock')
@@ -64097,6 +64104,7 @@ songbpm.com##.mb-6:has(> section > div[id^="ad--searches"])
 songbpm.com##div > div:has(> section > ins.adsbygoogle)
 songbpm.com#?#div.mb-6:contains(Advertisement)
 songbpm.com#?#div.mb-6:has-text(Advertisement)
+songfacts.com##.sf_leaderboard_2025
 songkick.com##.video-ad-wrapper
 songlyrics.com##.ad-zone-reserve
 songlyrics.com##.lyrics-inner-ad-wrap
@@ -79499,6 +79507,7 @@ zzzyk.com###Tinfo
 ||amazonaws.com/sftemp/sf_v*/html/r*.html$domain=tumblr.com
 ||amazonaws.com/snowplow-zitcha.js
 ||amazonaws.com/storejs/a/JKRHRQG/ge.js
+||amazonaws.com/telemetry.bydata/
 ||amazonaws.com/v1/apps/*/events
 ||amazonaws.com/waframedia16.com^$third-party
 ||amazonaws.com/webengage-files/
@@ -85994,6 +86003,7 @@ zzzyk.com###Tinfo
 ||easyresearch.se^$third-party
 ||easysearch.click^$popup
 ||easysol.net^$third-party
+||easytechguides.com/b/
 ||easytracking.de^$third-party
 ||easyview.eu/sw.js
 ||eatcells.com/land/$popup
@@ -96925,6 +96935,7 @@ zzzyk.com###Tinfo
 ||pingwest.com/api/news_ad
 ||pingwest.com/wp-content/uploads/*/ad.jpg
 ||pinklabel.com/tools/banners/data?aff_id=
+||pinklion.io^$third-party
 ||pinkmonkey.com/includes/right-ad-columns.html
 ||pinkoi.com/_log/
 ||pinkvilla.com/comscore_response.php
@@ -97061,6 +97072,7 @@ zzzyk.com###Tinfo
 ||playbuzz.com/player/$script,third-party
 ||playbuzz.com^$domain=javarevisited.blogspot.com|nsfwyoutube.com|sportsplays.com|dailyhive.com|straightdope.com
 ||playcvn.com/app^
+||playdigo.com^$third-party
 ||playdoe.xyz/asset/*.min.js?*=*&
 ||player-cdn.com/cdn-cgi/trace
 ||player-feedback*.glomex.*^
@@ -97962,6 +97974,7 @@ zzzyk.com###Tinfo
 ||publir.com^$third-party
 ||publish-int.se^$third-party
 ||publish0x.com^$image,script,third-party
+||publisher-services.amazon.dev/v1/recordVendorsLoaded
 ||publisher.freerider.ro/storage/images/_Freerider-Afisport
 ||publisher1st.com^$third-party
 ||publisherads.click^$popup
@@ -103429,6 +103442,7 @@ zzzyk.com###Tinfo
 ||trustedform.com/trustedform.js
 ||trustedgatetocontent.com^$popup
 ||trustedpeach.com^$popup
+||trustedstack.com^$third-party
 ||trustedzone.info^$popup
 ||trustev.com/trustev.min.js$third-party
 ||trustiseverything.de^$third-party
