@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260702020454
-! Last modified: 2026/07/02 02:04:54
-! Blocked Filters: 107124
+! Version: 20260702110026
+! Last modified: 2026/07/02 11:00:26
+! Blocked Filters: 107126
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -61077,6 +61077,8 @@ rmf.fm##body > div[style^="height:300px"]
 rmf.fm##div[id^="RMF_FM_podstrony_"]
 rmf24.pl###RMF_24_podstrony_top_bill
 rmf24.pl##.reklamaPage
+rmf24.pl##.text-muted[style*="min-height:"]:has(> div[id^="RMF_24_"])
+rmf24.pl##aside .text-muted[style*="min-height:"]:has(> .sticky-wrapper > #sticker > #adsSmall)
 rmfmaxx.pl,rmfmaxxx.pl##.ph-ad-zone
 rmfmaxxx.pl#$##videojs-player-container { display: none !important; }
 rmfmaxxx.pl#$##yt-player-container { display: block !important; }
