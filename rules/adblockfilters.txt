@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260704181723
-! Last modified: 2026/07/04 18:17:23
-! Blocked Filters: 107179
+! Version: 20260705011252
+! Last modified: 2026/07/05 01:12:52
+! Blocked Filters: 107187
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -57270,6 +57270,7 @@ pickleballtournaments.com##.pickleballtournaments-com_leaderboard_atf
 pickmypostcode.com###v-aside-rb
 pickmypostcode.com##.aside-right.aside
 pickmypostcode.com##.aside-sponsored
+picnob.com##.desney
 picrew.me##.play-Imagemaker_Footer
 picrew.me#$#.play-Imagemaker { height: 100% !important; }
 pics-view.com#%#//scriptlet('prevent-addEventListener', 'click', 'link.click')
@@ -69126,6 +69127,8 @@ transjizz.com,pornbaker.com,lesbosland.com,xfemaledom.com###beside-video-ver2
 transjizz.com,pornbaker.com,lesbosland.com,xfemaledom.com###native-boxes-2-ver2
 transjizz.com,pornbaker.com,lesbosland.com,xfemaledom.com###related-boxes-footer-ver2
 transparencyreport.google.com#@#.ad-icon
+transportandenergy.com##.elementor-element-16336d8
+transportandenergy.com##.elementor-popup-modal
 transtube.tv##.a-label
 transtube.tv##.banabpang
 transtube.tv##.card-section-promotion
@@ -78730,6 +78733,7 @@ zzzyk.com###Tinfo
 ||adsfirm.com^$third-party
 ||adsforallmedia.com^$third-party
 ||adsfs.
+||adsgateway.net^$document
 ||adshare.
 ||adshares.net^$third-party
 ||adshnk.com^$third-party
@@ -82505,6 +82509,7 @@ zzzyk.com###Tinfo
 ||cam4.com^*&utm_source=$popup
 ||cam4flat.com^$third-party
 ||cam69.com/images/*x*sexedchat.gif
+||camads.workers.dev^$document
 ||cambaddies.com^$third-party
 ||cambay.tv/contents/other/player/
 ||camcam.cc/wp-content/plugins/dh-anti-adblocker/
@@ -92479,6 +92484,7 @@ zzzyk.com###Tinfo
 ||leadgainz.com^$document
 ||leadhit.ru^$third-party
 ||leadid.com^$third-party
+||leadimmensely.com^$document
 ||leadin.com^$third-party
 ||leadinfo.eu^$third-party
 ||leadinfo.net^$third-party
@@ -93167,6 +93173,7 @@ zzzyk.com###Tinfo
 ||lsjxs.cc/js/html
 ||lsntzzy3.com/Runtime/js/psData.js
 ||lsnzxzy1.com/Runtime/js/psData.js
+||lstgddss.com^$document
 ||lswcdn.net/js/vendor/efldr.js
 ||lswcdn.net/js/vendor/frontend_loader.js
 ||lt*.tritondigital.com^
@@ -98653,6 +98660,7 @@ zzzyk.com###Tinfo
 ||raenonx.cc/g/usage/
 ||raenonx.cc/nitro.js
 ||raenonx.cc/scripts
+||ragan-qdr.com^$document
 ||ragazzeinvendita.com^$third-party
 ||raialyoum.com/images/adarabi.jpg
 ||raialyoum.com/images/adenglish.jpg
