@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260706011807
-! Last modified: 2026/07/06 01:18:07
-! Blocked Filters: 107198
+! Version: 20260706105638
+! Last modified: 2026/07/06 10:56:38
+! Blocked Filters: 107200
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -16772,7 +16772,6 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||interfans.org^$generichide
 @@||intersport.peerius.com^|
 @@||intuitcdn.net/libs/*/track-star.min.js$script,domain=turbotax.intuit.com
-@@||inven.co.kr/sitebuilder/common/?mode=leftmenu$xmlhttprequest,elemhide,jsinject,extension
 @@||inven.co.kr^$stealth=dpi
 @@||inven.co.kr^$stealth=ip
 @@||inven.com^$stealth=dpi
@@ -59985,6 +59984,7 @@ quadraphonicquad.com##.adthrive-placeholder-static-sidebar
 quanji.la###xinxi,#gegz
 quanji.la##[id^="qj960"],[id^="qj300"]
 quanmin.tv##.rbananer,.middleBananer,.starbananer,.star-ad-bottom,.play-bottom-hot,.w-recommend-live_bg,.p-star_adWrap,.p-room_chatad,.p-room_rbanner,.p-room_ad,.w-room-ad-tabs,.fixfooter,.w-room-banner,.w-header_mid-autumn-img,.w-room-footer_novparty-link,.w-room-rbanner
+quantpedia.com,wakingtimes.com,ymcinema.com###media_image-2
 quantrimang.com###adsposttop
 quantrimang.com##.adbox
 quark.cn#@#.open-share
@@ -71975,7 +71975,6 @@ waitrose.com##article[data-product-pod-type="sponsored"]
 waitrose.com##div[data-analytics-component-type="internal-promotion"]
 wakefieldexpress.co.uk#?#div[class] > section:has(> div.slab > div.slab__inner > div.dy-editorial-wow)
 wakingtimes.com##[href^="https://www.wendymyersdetox.com/"]
-wakingtimes.com,ymcinema.com###media_image-2
 walbrzyszek.com##.kontener-reklam
 walgreens.com###prod-sponsored
 walgreens.com###searchSponsoredProductContainer
@@ -72000,6 +71999,7 @@ walla.co.il#@%#//scriptlet('ubo-acis.js', 'btoa', 'upManager')
 walla.co.il#@%#//scriptlet('ubo-aopw.js', 'upManager')
 walla.co.il$$script[wildcard="*<=0x0||*new Uint8Array*"][min-length="50000"][max-length="150000"]
 wallapop.com##[class^="search-page_SearchPage__"][class*="Sky__"]
+wallethacks.com###custom_html-18
 walletinvestor.com##.sticky-footer-content
 walletinvestor.com##[href="https://walletinvestor.com/u/gnrATE"]
 wallgif.com###ad_modal
@@ -104935,6 +104935,8 @@ zzzyk.com###Tinfo
 ||walla.co.il/js/walla.js
 ||walla.co.il/p.php
 ||walla.co.il/stats/
+||wallethacks.com/js/t/|
+||wallethacks.com/js/w
 ||wallkit.net^*/user/event
 ||walmart.ca/api/bsp/logger
 ||walmart.ca/api/home-page/logger
