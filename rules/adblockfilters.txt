@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260720010721
-! Last modified: 2026/07/20 01:07:21
-! Blocked Filters: 107464
+! Version: 20260720104612
+! Last modified: 2026/07/20 10:46:12
+! Blocked Filters: 107470
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -30031,6 +30031,7 @@ chashebao.com##.ad960
 chatelaine.com##.assmbly-ad-text
 chatelaine.com,fashionmagazine.com##.assmbly-ad-wrapper
 chatgpt.com##.border-token-border-default.mt-2.border-t:has(button[aria-label="Ad options"])
+chatgpt.com##[class*="_assistantAds"]
 chatgpt.com##[data-testid="bazaar-v2-elevated-box"]:has([data-ad-card-root="true"])
 chatgpt.com##[data-testid="bazaar-v2-elevated-box"]:has([data-testid="image-card-v2-elevated-disclosure"])
 chatgpt.com##div.opacity-100.transition-opacity.ease-out:has(button[aria-label="Sponsored options"], button[aria-label="Ad options"])
@@ -34065,6 +34066,7 @@ dobro.systems#@#.advBox
 dobryruch.co.uk#$#.adsbygoogle { position: absolute!important; left: -3000px!important; }
 dobrzemieszkaj.pl##.abc
 dobrzemieszkaj.pl##.ad-wrap-2
+dobrzemieszkaj.pl##.sad
 dobrzemieszkaj.pl##body .ad:not(#style_important)
 doc.thinkphp.cn#%#//scriptlet('inject-css-in-shadow-dom', 'a[href*="?utm_source="][target="_blank"] > img { display: none !important; }')
 doc88.com##.adpx250
@@ -71634,6 +71636,7 @@ vik1ngfile.site#%#//scriptlet('abort-current-inline-script', 'JSON.parse', 'atob
 vik1ngfile.site#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'document.createElement')
 vik1ngfile.site#%#//scriptlet('prevent-addEventListener', 'click', 'document.createElement')
 vik1ngfile.site,zpaste.net#%#//scriptlet('abort-current-inline-script', 'Uint8Array', '/=\[\][\s\S]*?new[\s\S]*?\)\)\(\)\}\)/')
+vikacg.com##a[href^="https://acg01.com/]"]
 vikacg.com#%#//scriptlet('prevent-window-open', '!/external')
 vikacg.com$$a[href="asnebula.xyz"]
 vikacg.com$$a[onclick="trackOutboundLink"]
@@ -92731,6 +92734,7 @@ zzzyk.com###Tinfo
 ||leadbi.com^$third-party
 ||leadboxer.com^$third-party
 ||leadchampion.com^$third-party
+||leadconnectorhq.com/stats/event
 ||leaddyno.com^$third-party
 ||leadelephant.com^$third-party
 ||leadfamly.com/campaign/sdk/popup.min.js
@@ -97141,6 +97145,7 @@ zzzyk.com###Tinfo
 ||persevered.com^$third-party
 ||persianstat.com^$third-party
 ||persianstat.ir^$third-party
+||personalize-edge.contentstack.com/events
 ||personyze.com^$third-party
 ||pertersacstyli.com^$popup
 ||pertholin.com^$third-party
@@ -97259,6 +97264,7 @@ zzzyk.com###Tinfo
 ||piccy.org.ua/c?
 ||picgd.com/images/*.gif
 ||picgd.com/images/2018/12/01/h1pi5.png
+||picjs.xyz/image/*.gif$domain=vikacg.com
 ||pickaflick.co^$popup
 ||piclect.com^*.gif$third-party
 ||pico.tools/metrics/
