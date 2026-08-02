@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260802102751
-! Last modified: 2026/08/02 10:27:51
-! Blocked Filters: 107786
+! Version: 20260802180600
+! Last modified: 2026/08/02 18:06:00
+! Blocked Filters: 107788
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -30131,7 +30131,7 @@ chatgpt.com##div[data-testid] div[class^="max-"] > div[data-testid="image-card-v
 chatgpt.com##div[data-testid] div[class^="relative max-"]:has(> div[data-testid="image-card-v2"] + .pointer-events-none button[aria-label="Sponsored options"])
 chatgpt.com##section:has(> [aria-label="Sponsored"])
 chatgpt.com#%#//scriptlet('trusted-json-set', 'WeakMap.prototype.set', '$[?(@.ads_response_id)].*', '$remove$', '', 'arg:1')
-chatgpt.com#%#//scriptlet('trusted-replace-outbound-text', 'TextDecoder.prototype.decode', '/^{"type": "ads", "content": {"ads_request_id":[\s\S]*?"ads_response_id":[\s\S]*}$/', '{}')
+chatgpt.com#%#//scriptlet('trusted-replace-outbound-text', 'TextDecoder.prototype.decode', '/^{"type":\s*"ads",\s*"content":\s*{"ads_request_id":.*?"ads_response_id":.*}$/', '{}')
 chatgptfree.ai#?#.elementor-widget-container > style + p:contains(/^ADS$/)
 chatib.us##.login-container > div[class^="col-"] > center > div.mrg-b-25
 chattanoogan.com##.displayphoto
@@ -74805,6 +74805,7 @@ xgan.cn##a[href^="https://www.jspp9.xyz"]
 xgan.cn##body > center > a[target="_blank"][rel="nofollow"]
 xgaytube.com##a[href^="https://stats.hprofits.com"]
 xgaytube.tv##.b-header > .b-row > .b-main-nav > ul > li > a[href^="https://hd100546b.com/"]
+xgcartoon.com#%#//scriptlet('abort-on-stack-trace', 'document.createElement', 'mount_adsqrt_ad')
 xgeshu.com,boqushu.com##div[style="display:block;width:100%;height:100px;overflow:hidden;"]
 xghylt.com##div[class="mb5"],.index_fivead,div.a_pr,div.a_pb,.ad,div.mt10,.a_mu
 xgo.com.cn##div.ad.ad-1,div[class^="ad ad_r"],div.gmine_ad
@@ -80264,6 +80265,7 @@ zzzyk.com###Tinfo
 ||anime.freehentaistream.com/content/natheadcontent
 ||anime.freehentaistream.com/content/natundervidcontent
 ||anime.freehentaistream.com/content/pdz.js
+||anime.nexus/video/vast-ad.mov
 ||anime.solutions/public/assets/js/link-converter.js
 ||anime4up.com/wp-content/uploads/*.png$popup
 ||animeaddicts.hu/file/adver/
