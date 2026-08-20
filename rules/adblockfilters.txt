@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260820091101
-! Last modified: 2026/08/20 09:11:01
-! Blocked Filters: 108182
+! Version: 20260820164603
+! Last modified: 2026/08/20 16:46:03
+! Blocked Filters: 108191
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -8565,6 +8565,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 17173.com##.mod-tg1
 17173.com##.pic[href*="Room"]
 17173.com##.slide-list > li[style]:has(> a[href*="&ad_code="])
+17173.com##.webgame .pn-bd
 17173.com##DIV[class^="ad-pn"],DIV.top-background-adv,DIV.middel_advers,.win17173,div[class^="banner"][class$="0"],iframe[src^="http://www.17173.com/if/x/"],div.ad-rt,div.ad-lt,[class^="ad0"],[class^="dloadArea"],[class^="tg-h-"],[class^="pn pn-tg ad17173"],.img-placeholder,[class^="pn pn-tg-avatar ad17173carousel"],[id^="Youliang_"],.pn-tg,.pn.pn-rss
 17173.com##a[href*="&ad_code="]
 17173.com##a[href^="https://gtv."]
@@ -13015,6 +13016,7 @@ $~third-party,xmlhttprequest,script,redirect-rule=nooptext,domain=zertalious.xyz
 @@||bigbrothercanada.ca^$generichide
 @@||bigbtc.win/js/ads-prebid.js
 @@||bigbtc.win^$generichide
+@@||bigcommerce.com^$domain=plazajapan.com
 @@||bigcrunch.com^$script,domain=snopes.com
 @@||bigfishaudio.com/banners/$image,~third-party
 @@||biggestplayer.cachefly.net/ad300.html
@@ -37322,7 +37324,7 @@ fbook.net##div.gg_t,div.head-d,.readads,div.tlgg
 fbref.com,basketball-reference.com,onmsft.com,softperfect.com##.adblock
 fbstreams.pm,cracksports.me##.btn-danger
 fbstreams.pm,cracksports.me##.ratio > iframe ~ div[class*=" bg-opacity-"]
-fbstreams.pm,socceronline.me,vipleague.*,vipbox.*,strikeout.*##button[data-open="_blank"]
+fbstreams.pm,socceronline.me,vipbox.*,strikeout.*##button[data-open="_blank"]
 fbsub.de,freer.in#@#.advertiser
 fc-lc.com###ignielAdBlock
 fc-lc.xyz#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
@@ -45018,6 +45020,8 @@ impiego24.it#?#.annunciLavoro > li.boxAnnunci:has(> a[href^="https://affiliate.a
 implbits.com#@#.banner_container
 importantclass.com##.modal:not(#style_important)
 impressivetimes.com##[class$="-ads"]
+impulsegamer.com###omc-sidebar > ul > li.omc-widget:has(> .textwidget > a[target="_blank"] > img)
+impulsegamer.com###omc-top-banner
 imresizer.com##.ad-slot-1-fixed-ad
 imresizer.com##.ad-slot-2-fixed-ad
 imresizer.com##.ad-slot-3-fixed-ad
@@ -58289,6 +58293,7 @@ play.doramasplus.net#%#//scriptlet('set-constant', 'openUp', 'noopFunc')
 play.esea.net###module-ads-home-bottom
 play.geforcenow.com#$?##preStreamContainer { remove: true; }
 play.google.com#@#div[aria-label="Ads"]
+play.hbomax.com#%#//scriptlet('prevent-xhr', 'brightline.tv')
 play.iporngay.com#%#//scriptlet('prevent-setTimeout', 'hasPopupBlocker')
 play.iporngay.com#%#//scriptlet('prevent-window-open', '!download')
 play.mylifetime.com,play.fyi.tv,play.history.com,play.aetv.com#%#//scriptlet('prevent-element-src-loading', 'script', 'imasdk.googleapis.com/js/sdkloader/ima3_dai.js')
@@ -65282,6 +65287,7 @@ spoki.lv##.params > div.cnt_btn
 spoonuniversity.com###leaderboard_fixed
 spoonuniversity.com#$#body[style^="margin-top: 90px;"] { margin-top: 0!important; }
 sporcle.com###go-orange
+sporcle.com###homepage-container > div.row-unit-container
 sporcle.com###quiz-right-rail-unit
 sporcle.com###quiz-right-rail-unit-2
 sporcle.com###quiz-scoreboard-unit
@@ -72310,6 +72316,7 @@ vipleague.tv##.b365ban
 vipleague.tv##iframe[name="player_iframe"] + #overlay
 vipleague.tv#@#.adContent
 vipleague.tv#@#.adSense
+vipleague.vg,vipleague.*##.card-body > [data-open="_blank"]
 vipr.im#%#//scriptlet("abort-current-inline-script", "document.attachEvent", "initBCPopunder")
 viprow.me##.embed-responsive > .position-absolute
 viprow.net##button.btn[data-open="_blank"]
@@ -88866,6 +88873,7 @@ zzzyk.com###Tinfo
 ||gaming-adult.com^$popup
 ||gaming001.site^$all
 ||gamingadlt.com^$popup
+||gamingadlt.com^document
 ||gamingjobsonline.com/images/banner/
 ||gamivo.com/tcllc?
 ||gammachug.com^$third-party
@@ -104926,6 +104934,7 @@ zzzyk.com###Tinfo
 ||udn.com^*/ad/
 ||udnfunlife.com/mall/cus/cat/OutWebAd.do
 ||udvl.com/api/spots/*?host=$third-party
+||ue.17173cdn.com/a/www/index/*/js/seed.js
 ||uecdn.es/js/pbmu.js
 ||uedas.$domain=qdmm.com|qdwenxue.com|qidian.com
 ||uefa.com/imgml/uefacom/sponsors/
