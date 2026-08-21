@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260821004031
-! Last modified: 2026/08/21 00:40:31
-! Blocked Filters: 108222
+! Version: 20260821090758
+! Last modified: 2026/08/21 09:07:58
+! Blocked Filters: 108224
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -81370,6 +81370,8 @@ zzzyk.com###Tinfo
 ||asset2.uniwa.cn/assets/custom/csstock$image
 ||assets-prod.bitcointreasuries.net/partner-images/
 ||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=medscape.com|skinny.co.nz
+||assets.aliexpress-media.com/g/AWSC/*/collina.js$script,domain=aliexpress.com
+||assets.aliexpress-media.com/g/AWSC/*/fireyejs.js$script,domain=aliexpress.com
 ||assets.apollo.io/micro/website-tracker/
 ||assets.bwbx.io/*/initialize_ads-*.js$domain=bloomberg.com
 ||assets.deltapictures.it/js/adblock/adblock.min.js
