@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260823003417
-! Last modified: 2026/08/23 00:34:17
-! Blocked Filters: 108248
+! Version: 20260823091509
+! Last modified: 2026/08/23 09:15:09
+! Blocked Filters: 108250
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -31846,6 +31846,7 @@ compress2go.com,pdf2go.com##.text-ad
 compressor.io##.adwrapp
 comprovendolibri.it###AvvisoADblock
 comprovendolibri.it#%#//scriptlet("set-constant", "google_jobrunner", "noopFunc")
+computer.org##.ad-area
 computer.org##.adBlockBanner
 computerbase.de##.adbox-wrapper
 computerbild.de#%#//scriptlet('abort-on-property-write', 'ASCDP')
@@ -84930,6 +84931,7 @@ zzzyk.com###Tinfo
 ||codeceo.com/images/*/boxuegu
 ||codeceo.com/images/2020/04/kaikebabanner.png
 ||codedexchange.com^$popup
+||codedrink.com/api/inbound
 ||codefa.st/js/script.js
 ||codeflareblogspot.github.io/code/KillAdBlock.js
 ||codegown.care^$third-party
