@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260911031334
-! Last modified: 2026/09/11 03:13:34
-! Blocked Filters: 108571
+! Version: 20260911105638
+! Last modified: 2026/09/11 10:56:38
+! Blocked Filters: 108572
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -44056,6 +44056,7 @@ hs.dety.men$$span[style="display:inline-block;color:RoyalBlue"]
 hscans.com,mitsmits.com,csharpprogram.com,grasta.net,pokemonmatome.online,shirurin.com,huntersscan.xyz,freemagazinespdf.com,wabetainfo.com##body > script[id] + div[id][class*=" "]
 hsex.men###container > div:not([class])
 hsex.men##div[style="margin:0 auto 10px;width:900px;height:250px"]
+hsex.tv###Austin + a
 hsreplay.net##[style^="min-height: 90px;"]
 hsreplay.net#?#.ads-container > div[class]:first-child:has(> div[style]:only-child > .vm-placement)
 hsreplay.net#?#.ads-container > div[class]:last-child:has(> div[class]:only-child > div[style] > .vm-placement)
