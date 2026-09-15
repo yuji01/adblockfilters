@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260915042313
-! Last modified: 2026/09/15 04:23:13
-! Blocked Filters: 108662
+! Version: 20260915111705
+! Last modified: 2026/09/15 11:17:05
+! Blocked Filters: 108669
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -37045,6 +37045,7 @@ f2movies.*#%#//scriptlet('set-constant', 'document.write', 'undefined')
 f2movies.to,cineb.rs,himovies.bz##.block_area > div[class][style="width: 100%; padding-bottom: 320px; position: relative;"]:empty
 f2movies.to,moviesjoy.to##.news-iframe
 f2movies.to,streameast.watch#%#//scriptlet("abort-current-inline-script", "JSON.parse", "getPropertyValue('content')")
+f7hyg4q.org,q8y5z.com,rupertisdivingintoocean.com,398fitus.com,f75s.com,f16px.com#%#//scriptlet('prevent-setTimeout', 'readyWait')
 f95zone.to###bisnre09
 f95zone.to###topNotice
 f95zone.to##.node--link:has([href^="/explore/"])
@@ -46383,6 +46384,11 @@ ishuhui.com##[class^="ad"],[id^="a_xx_d_"],.a_xx_d
 isi7.net#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 isidewith.com##.overlayBG
 isidewith.com##.overlayContent
+isitcracked.com##.ad-banner
+isitcracked.com##a[rel^="nofollow sponsored"]
+isitcracked.com##aside.hidden > div.sticky > div.rounded-xl:has(> p.tracking-widest)
+isitcracked.com##div.flex.justify-center:has(> div[class] > p.tracking-widest)
+isitcracked.com##div.min-h-screen > div.mx-auto:has(div.ad-banner)
 isitdownorjustme.net##.aioc_advertise_box
 isitdownorjustme.net##img[width="970"][height="250"]
 isitdownrightnow.com###commentstop
@@ -49136,6 +49142,7 @@ lavorincasa.it##div[class^="wbn-"]
 lavorincasa.it#$#body { margin-top: -100px !important; }
 law.com,topcultured.com##h3
 law.cornell.edu##.gfs
+law.justia.com##.jlead-v2
 law.justia.com##.rotating-leads
 law.ravellawfirm.com###adblock-overlay
 law360.com##[style="width:100%;display:flex;justify-content:center;background-color:rgb(247, 247, 247);flex-direction:column;"]
@@ -60734,7 +60741,6 @@ pythonthree.com##.sidebar-main
 pzgolf.pl##.ban_static
 pzzc.net##.portal_block_summary
 q84sale.com#%#//scriptlet("set-constant", "google_jobrunner", "noopFunc")
-q8y5z.com,rupertisdivingintoocean.com,398fitus.com,f75s.com,f16px.com#%#//scriptlet('prevent-setTimeout', 'readyWait')
 qa.opensooq.com##.adSearch
 qafqazinfo.az###topbanner
 qafqazinfo.az##a.visible-lg
@@ -103282,6 +103288,7 @@ zzzyk.com###Tinfo
 ||streamelements.com/z/t
 ||streamen.com/exports/$third-party
 ||streamereasy.click^$popup
+||streamex.hn/pop.js
 ||streamex.sh/pop.js
 ||streamfree.to/acebet-banner
 ||streamfree.top/analytics.js
