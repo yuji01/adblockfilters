@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20260927031411
-! Last modified: 2026/09/27 03:14:11
-! Blocked Filters: 108895
+! Version: 20260927113114
+! Last modified: 2026/09/27 11:31:14
+! Blocked Filters: 108896
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -37323,7 +37323,7 @@ fansonlinehub.com,teralink.me,teraearn.com,terashare.me,hotmediahub.com###adsens
 fansonlinehub.com,teralink.me,teraearn.com,terashare.me,hotmediahub.com,terabox.fun#$#body { overflow: auto !important; }
 fansonlinehub.com,teralink.me,teraearn.com,terashare.me,hotmediahub.com,terabox.fun#%#//scriptlet("json-prune", "web_share_ads_adsterra_config wap_short_link_middle_page_ad wap_short_link_middle_page_show_time data.ads_cpm_info")
 fansonlinehub.com,teralink.me,teraearn.com,terashare.me,hotmediahub.com,terabox.fun#?##app div.overlay:has(> div.modal > div.dialog-ad-box)
-fansshare.com##[width="300"]
+fansshare.com,lightspeedmagazine.com##[width="300"]
 fantacalcio.it#%#//scriptlet("prevent-setTimeout", "isAdBlockEnabled")
 fantasiku.com##button.magsoul-scroll-top + div[id][class*=" "]
 fantasy.espn.com###games-footercol > .fantasy-sponsored-headlines
@@ -49795,6 +49795,7 @@ lightnovelspot.com,webnovelpub.com,lightnovelpub.com##.leaderboard-large
 lightnovelworld.co##div[data-mobid]
 lightnovelworld.co,lightnovelpub.fan,lightnovelpub.com##div[class]:has(> div[id^="pf-"]:only-child)
 lightsnovel.com##div[class^="novel-ins"]
+lightspeedmagazine.com##.sidebar_box:has(.adtext)
 lihatgambar.my.id##div[id^="anim_olay_"]
 lihatgambar.my.id#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'handleAdblockDetection')
 lihatgambar.my.id#%#//scriptlet('remove-node-text', 'script', 'adsbygoogle.push')
