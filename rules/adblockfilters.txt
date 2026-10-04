@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20261004031237
-! Last modified: 2026/10/04 03:12:37
-! Blocked Filters: 108943
+! Version: 20261004121222
+! Last modified: 2026/10/04 12:12:22
+! Blocked Filters: 108945
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -34167,6 +34167,7 @@ digitalcameraworld.com#@#.googleAd
 digitalcameraworld.com,t3.com,bikeperfect.com,cyclingnews.com,tomsguide.com,whattowatch.com##.hawk-placeholder
 digitalcitizen.life##.block--amp-ad
 digitalcryptobox.com##.footer-wrapper + div[id][class*=" "]
+digitalescapetools.com##.det-promo-float-host
 digitalfaq.com#?#.rc_c > #posts > center:has(> .page:only-child td[nowrap="nowrap"] > .smallfont:contains(/^Ads \/ Sponsors$/))
 digitalfoundry.net###nn_half
 digitalfoundry.net###nn_mast
@@ -74347,6 +74348,7 @@ whcykj.cn###BDBridgeInviteWrap
 whcykj.cn###InviteContainerl
 whcykj.cn##.swt_bottom
 whdh.com,wsvn.com###leader_1
+whec.com##[style*="min-height: 250px;"]
 wheelofnames.com##.ad-declaration
 whentai.com###modalegames
 whentai.com##.bg-inject
