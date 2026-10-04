@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：1Hosts (Lite)、ADgk、AdGuard Base filter、AdGuard Base filter、AdGuard DNS filter、AdRules DNS List、Hblock、NEO DEV HOST、OISD Basic、1024 hosts、ad-wars hosts、StevenBlack hosts、xinggsf、EasyList、Easylist China、EasyPrivacy、CJX's Annoyance List、SmartTV Blocklist
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20261004214620
-! Last modified: 2026/10/04 21:46:20
-! Blocked Filters: 108945
+! Version: 20261005031450
+! Last modified: 2026/10/05 03:14:50
+! Blocked Filters: 108947
 !
 $$a[href="/js/app.htm?url="]
 $$a[href="changhong886.com"]
@@ -40553,6 +40553,7 @@ gazzetta.gr##.sticky-inside .cosmotetv-heading + .tab-parent
 gazzetta.gr##a[href^="https://rt.novibet.partners/"] > img
 gazzetta.gr##a[rel^="sponsored"]
 gazzetta.gr##div#right_sidebar .ad
+gazzetta.gr##section.mb-0-mobile > div.mb-48 > div.is-hidden-touch:has(> a[href*="?utm_source"])
 gazzetta.gr#%#//scriptlet('set-constant', 'Adman', 'emptyObj')
 gazzetta.gr#?#.sticky-inside > h3:contains(CASINO)
 gazzetta.it###rcsad_Bacheca1
@@ -84394,6 +84395,7 @@ zzzyk.com###Tinfo
 ||cdn.adoptum.net/ado.js$script,redirect=noopjs,domain=sms24.me|sms24.info
 ||cdn.adpushup.com/*/adpushup.js$script,xmlhttprequest,redirect=noopjs,domain=smallseotools.com
 ||cdn.adult.xyz/js/link-converter.js
+||cdn.adwebcode.gr^$third-party
 ||cdn.aiqingyu1314.com/age/statics/js/notice.js^$script
 ||cdn.allermedia.se/se-aller-ads/
 ||cdn.allsportsflix.xyz^$script
